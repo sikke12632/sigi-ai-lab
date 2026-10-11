@@ -1,0 +1,526 @@
+{
+ "company": {
+  "ticker": "NPO",
+  "cik": "0001164863",
+  "name": "Enpro Inc."
+ },
+ "cutoff": "2026-10-11",
+ "latest_periodic_report": {
+  "form": "10-Q",
+  "accession": "0001628280-26-052211",
+  "period_end": "2026-06-30",
+  "filed": "2026-08-04"
+ },
+ "choi": [
+  {
+   "target": "operating_income",
+   "status": "value",
+   "value_usd": 101200000,
+   "printed": "101.2",
+   "printed_scale": "millions",
+   "period_start": "2026-01-01",
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-Q 0001628280-26-052211",
+    "location": "Consolidated Statements of Operations (Six Months Ended June 30, 2026)",
+    "quote": "Operating income 57.7 45.7 101.2 87.5"
+   },
+   "xbrl": {
+    "tag": "us-gaap:OperatingIncomeLoss",
+    "value": 101200000
+   },
+   "note": "손익계산서에 'Operating income' 행이 표시됨. 열 순서: 2Q26, 2Q25, 6M26, 6M25. XBRL 컨텍스트 2026-01-01~2026-06-30 확인."
+  },
+  {
+   "target": "short_term_borrowings",
+   "status": "none_presented",
+   "value_usd": null,
+   "printed": null,
+   "printed_scale": null,
+   "period_start": null,
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-Q 0001628280-26-052211",
+    "location": "Consolidated Balance Sheets - Current liabilities",
+    "quote": "Current liabilities Current maturities of long-term debt $ 0.2 $ 0.2 Accounts payable 86.7 71.6 Accrued expenses 112.6 116.9 Total current liabilities 199.5 188.7"
+   },
+   "xbrl": null,
+   "note": "유동부채는 유동성 장기부채·매입채무·미지급비용뿐이며 단기차입금 계정이 없음. 리볼빙 신용한도 차입금 $130.0 million(만기 2030-04-09)은 장기부채(Long-term debt 575.3)에 포함(Note 8). 미지급비용 주석(Note 7)에도 차입금 항목 없음. companyfacts에 ShortTermBorrowings 태그 없음."
+  },
+  {
+   "target": "current_long_term_debt_ex_leases",
+   "status": "value",
+   "value_usd": 200000,
+   "printed": "0.2",
+   "printed_scale": "millions",
+   "period_start": null,
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-Q 0001628280-26-052211",
+    "location": "Consolidated Balance Sheets - Current liabilities",
+    "quote": "Current maturities of long-term debt $ 0.2 $ 0.2"
+   },
+   "xbrl": {
+    "tag": "us-gaap:LongTermDebtCurrent",
+    "value": 200000
+   },
+   "note": "10-K(2025) Note 11에 따르면 부채는 Senior notes, Revolving credit facility, Other notes payable로 구성되고 유동성분(0.2)은 기타 차입어음 성격; 금융리스는 회사가 '중요하지 않다'며 별도 공시하지 않으므로 리스 포함 여부는 확인 불가하나 표시값 그대로 사용."
+  },
+  {
+   "target": "current_finance_leases",
+   "status": "none_presented",
+   "value_usd": null,
+   "printed": null,
+   "printed_scale": null,
+   "period_start": null,
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-K 0001628280-26-009798",
+    "location": "10-K 2025 Note 9 Leases",
+    "quote": "We rarely enter into finance leases or act as a lessor. Since finance lease amounts, lessor details, and finance lease related costs are not significant to our consolidated financial position or results of operations, additional disclosures regarding finance leases are not presented."
+   },
+   "xbrl": null,
+   "note": "10-Q 유동부채 목록(유동성 장기부채, 매입채무, 미지급비용)과 미지급비용 주석(운용리스부채 13.0만 표시)에 금융리스 계정 없음. 10-Q에는 리스 주석이 없어 최신 10-K 리스 주석을 근거로 인용. 운용리스부채는 금융리스가 아니므로 제외. companyfacts에 FinanceLeaseLiabilityCurrent 없음."
+  }
+ ],
+ "kim": [
+  {
+   "id": "NPO-01",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2026년 2분기 매출은 $338.8 million으로 전년 대비 17.6% 증가했고, 유기적으로는 10.9% 증가했으며, 회사는 반도체 수요 강세, 미국 내 일반산업 두 자릿수 성장, 항공우주·성분분석 응용 강세를 원인으로 들었다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Sales of $338.8 million increased 17.6% compared to last year and 10.9% organically. Strong demand for semiconductor products and solutions, double-digit growth in domestic general industrial markets, strength in aerospace and compositional analysis applications"
+   }
+  },
+  {
+   "id": "NPO-02",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2026년 2분기 GAAP 순이익은 $27.1 million(전년 $26.4 million), 희석 EPS는 $1.27(전년 $1.25)였다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Net income was $27.1 million, compared to $26.4 million last year. Diluted earnings per share were $1.27, compared to $1.25 in the prior year."
+   }
+  },
+  {
+   "id": "NPO-03",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "회사는 매출 증가에 따른 영업레버리지가 레거시 환경부채 충당금 $16.1 million 증액과 성장투자 비용 증가로 대부분 상쇄되었다고 밝혔다(일회성 성격의 환경충당금 비용).",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Operating leverage from revenue growth was largely offset by a $16.1 million increase in reserves addressing legacy environmental liabilities and increased expenses supporting growth initiatives."
+   }
+  },
+  {
+   "id": "NPO-04",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "연결 손익계산서상 영업이익은 2026년 2분기 57.7(전년 45.7), 상반기 누적 101.2(전년 87.5)였다(단위: 백만 달러).",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Operating income 57.7 45.7 101.2 87.5"
+   }
+  },
+  {
+   "id": "NPO-05",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2026년 상반기 매출은 $641.8 million으로 전년 $561.3 million 대비 14.3% 증가했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Sales of $641.8 million in the first six months of 2026 increased 14.3% from $561.3 million last year."
+   }
+  },
+  {
+   "id": "NPO-06",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2026년 상반기 순이익은 $54.5 million(주당 $2.55)으로 전년 동기 $50.9 million(주당 $2.40)에서 증가했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Net income was $54.5 million, or $2.55 per share, in the first six months of 2026 compared to $50.9 million, or $2.40 per share, in the first six months of 2025."
+   }
+  },
+  {
+   "id": "NPO-07",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2분기 기타비용은 전년 대비 $13.8 million 증가했으며, 주로 순 환경충당금 조정($16.8 million) 때문이었다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Other expense in the second quarter of 2026 increased $13.8 million compared to last year, driven primarily by net environmental reserve adjustments ($16.8 million)"
+   }
+  },
+  {
+   "id": "NPO-08",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2분기 조정 EBITDA는 $86.9 million(매출 대비 25.6%)으로 전년 대비 22.2% 증가했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Adjusted EBITDA* of $86.9 million, or 25.6% of total sales, increased 22.2% year-over-year."
+   }
+  },
+  {
+   "id": "NPO-09",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "AST(Advanced Surface Technologies) 부문 2분기 매출은 $122.9 million으로 전년 $100.9 million 대비 21.8% 증가했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Advanced Surface Technologies. Sales of $122.9 million in the second quarter of 2026 increased 21.8% or $22.0 million compared to sales of $100.9 million in last year's second quarter."
+   }
+  },
+  {
+   "id": "NPO-10",
+   "section": "1_results",
+   "tier": "optional",
+   "fact": "2026년 1분기 매출은 $303.0 million으로 전년 대비 10.9% 증가했다.",
+   "event_date": "2026-03-31",
+   "published_date": "2026-05-05",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-030116",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026030116/q12026npoearningsrelease.htm",
+    "quote": "Sales of $303.0 million increased 10.9% compared to last year."
+   }
+  },
+  {
+   "id": "NPO-11",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "2026년 상반기 영업활동 현금흐름은 $90.9 million 유입으로 전년 동기 $73.2 million보다 증가했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Operating activities provided $90.9 million of cash in the first six months of 2026 and $73.2 million of cash in the first six months of 2025."
+   }
+  },
+  {
+   "id": "NPO-12",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "2분기 말 총부채는 $575.5 million, 현금 및 현금성자산은 $77.0 million이며, 2분기 중 리볼빙 차입금 $30 million을 상환해 순레버리지 비율은 1.6x였다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Enpro ended the second quarter with total debt of $575.5 million and cash and cash equivalents of $77.0 million, after reducing outstanding revolving debt by $30 million during the second quarter, resulting in a net leverage ratio of 1.6x"
+   }
+  },
+  {
+   "id": "NPO-13",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "2026년 6월 30일 리볼빙 신용한도 가용액은 $660.2 million이며, 신용장 $9.8 million과 차입금 잔액 $130.0 million을 반영한 수치다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "The borrowing availability under our Revolving Credit Facility at June 30, 2026 was $660.2 million after giving consideration to $9.8 million of outstanding letters of credit and $130.0 million of outstanding borrowings."
+   }
+  },
+  {
+   "id": "NPO-14",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "2026년 상반기 해외 자회사 자금 $60.0 million을 사내대여로 미국 모회사에 이전해 리볼빙 신용한도 잔액 일부 상환에 사용했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "In the first six months of 2026, we transferred $60.0 million from our foreign subsidiaries to their U.S. parent entity via an intercompany loan, and the funds were used to partially pay down the outstanding balance on our revolving credit facility."
+   }
+  },
+  {
+   "id": "NPO-15",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "2026년 상반기 영업현금흐름 $90.9 million, 잉여현금흐름 $61.4 million(설비투자 $29.5 million 차감)을 창출했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "the company generated $90.9 million of cash flow from operating activities and $61.4 million of free cash flow, net of $29.5 million in capital expenditures."
+   }
+  },
+  {
+   "id": "NPO-16",
+   "section": "2_cash_debt",
+   "tier": "optional",
+   "fact": "Enpro는 2026년 7월 30일 주당 $0.32의 정기 분기배당을 선언했다(9월 16일 지급).",
+   "event_date": "2026-07-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Enpro declared a regular quarterly dividend of $0.32 per share on July 30, 2026. The dividend is payable on September 16, 2026"
+   }
+  },
+  {
+   "id": "NPO-17",
+   "section": "3_guidance",
+   "tier": "required",
+   "fact": "Enpro는 2026년 연간 가이던스를 상향해 매출 성장 14%-16%, 조정 EBITDA $330 million~$340 million, 조정 희석 EPS $9.30~$9.80을 제시했다.",
+   "event_date": "2026-08-04",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Enpro is raising guidance for full-year 2026 and now expects revenue growth in the range of 14%-16%, adjusted EBITDA* in the range of $330 million to $340 million and adjusted diluted earnings per share* in the range of $9.30 to $9.80."
+   }
+  },
+  {
+   "id": "NPO-18",
+   "section": "3_guidance",
+   "tier": "required",
+   "fact": "직전(1분기 발표) 가이던스는 매출 성장 10%-14%, 조정 EBITDA $315 million~$330 million, 조정 희석 EPS $8.85~$9.50였다.",
+   "event_date": "2026-08-04",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "This compares to the prior guidance of revenue growth of 10%-14%, adjusted EBITDA* in the range of $315 million to $330 million and adjusted diluted earnings per share* in the range of $8.85 to $9.50 per share."
+   }
+  },
+  {
+   "id": "NPO-19",
+   "section": "3_guidance",
+   "tier": "optional",
+   "fact": "1분기 발표(5월 5일)에서도 가이던스를 상향했으며, 그 이전 가이던스는 매출 성장 8%-12%, 조정 EBITDA $305 million~$320 million, 조정 희석 EPS $8.50~$9.20였다.",
+   "event_date": "2026-05-05",
+   "published_date": "2026-05-05",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-030116",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026030116/q12026npoearningsrelease.htm",
+    "quote": "This compares to the prior guidance of revenue growth of 8%-12%, adjusted EBITDA* in the range of $305 million to $320 million and adjusted diluted earnings per share* in the range of $8.50 to $9.20 per share."
+   }
+  },
+  {
+   "id": "NPO-20",
+   "section": "3_guidance",
+   "tier": "optional",
+   "fact": "CEO는 첨단 반도체 관련 수요가 견조해 2026년 하반기 AST 매출 성장이 가속될 것으로 예상한다고 밝혔다.",
+   "event_date": "2026-08-04",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001628280-26-052148",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052148/q22026npoearningsrelease.htm",
+    "quote": "Demand for our products and solutions supporting leading-edge chip production remains healthy, and we expect AST sales growth to accelerate in the second half of 2026 as a result."
+   }
+  },
+  {
+   "id": "NPO-21",
+   "section": "4_events",
+   "tier": "required",
+   "fact": "2026년 4월 20일 Enpro와 Larisa R. Joiner 수석부사장 겸 최고정보책임자(CIO)는 그가 4월 23일 직에서 물러나기로 합의했고, 회사는 후임자를 물색하며 그는 2026년 7월 31일까지 직원으로 남는다.",
+   "event_date": "2026-04-20",
+   "published_date": "2026-04-20",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001140361-26-015660",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000114036126015660/ef20070791_8k.htm",
+    "quote": "On April 20, Enpro Inc. (the “Company”) and Larisa R. Joiner mutually agreed that, on April 23, 2026, Ms. Joiner will step down from her role as the Company’s Senior Vice President and Chief Information Officer as the Company undertakes a search for her replacement in that position."
+   }
+  },
+  {
+   "id": "NPO-22",
+   "section": "4_events",
+   "tier": "optional",
+   "fact": "Enpro는 2026년 4월 29일 정기주주총회를 개최하고 이사 선임·임원보수 자문투표·감사인 비준 결과를 공시했다.",
+   "event_date": "2026-04-29",
+   "published_date": "2026-04-29",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001140361-26-017817",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000114036126017817/ef20071896_8k.htm",
+    "quote": "Enpro Inc. (the “Company”) held its 2026 annual meeting of shareholders on April 29, 2026."
+   }
+  },
+  {
+   "id": "NPO-23",
+   "section": "4_events",
+   "tier": "background",
+   "fact": "2026년 1월 6일 이사 Ronald C. Keating이 2026년 주주총회에서 재선임에 나서지 않겠다고 통보했다(회사와 이견 없음).",
+   "event_date": "2026-01-06",
+   "published_date": "2026-01-08",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001140361-26-000570",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000114036126000570/ef20062491_8k.htm",
+    "quote": "On January 6, 2026, Ronald C. Keating, a director of Enpro Inc. (the “Company”), informed the Company of his decision not to stand for reelection as a director at the Company’s 2026 annual meeting of shareholders."
+   }
+  },
+  {
+   "id": "NPO-24",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "애리조나 우라늄 광산(CERCLA) 관련 충당금은 2026년 6월 30일 $36.4 million으로 3월 31일 $11.3 million 대비 $25.2 million 증가했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "As of June 30, 2026, our reserve for this site was $36.4 million, reflecting a $25.2 million increase from the reserve of $11.3 million at March 31, 2026."
+   }
+  },
+  {
+   "id": "NPO-25",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "2026년 6월 EPA는 두 우선 광산에 대해 광산 폐기물 굴착·외부 처분을 요구하는 대안을 권고할 가능성이 높다고 회사에 통보했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "In June 2026, the EPA informed the Company that it is likely to recommend a remedial alternative requiring the excavation and off-site disposal of mine waste from the two priority mines"
+   }
+  },
+  {
+   "id": "NPO-26",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "환경 우발부채로 계상한 부채 총액은 2026년 6월 30일 $64.4 million으로 2025년 12월 31일 $42.2 million에서 증가했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "As of June 30, 2026, and December 31, 2025, we had recorded liabilities aggregating $64.4 million and $42.2 million, respectively, in other liabilities for estimated future expenditures relating to environmental contingencies."
+   }
+  },
+  {
+   "id": "NPO-27",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "미시시피주 Water Valley 시설 TCE 노출 관련해 Yalobusha 카운티 순회법원에 총 635명 원고의 소송 17건이 제기되었다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Since that dismissal, seventeen lawsuits have been filed in Yalobusha County Circuit Court in Mississippi (the “Mississippi State Court Proceedings”) by a combined total of 635 plaintiffs"
+   }
+  },
+  {
+   "id": "NPO-28",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "회사는 Water Valley 관련 소송·청구에 대해 2026년 6월 30일 현재 충당금을 계상하지 않았다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Enpro had not accrued reserves for such legal proceedings at June 30, 2026."
+   }
+  },
+  {
+   "id": "NPO-29",
+   "section": "5_legal",
+   "tier": "optional",
+   "fact": "Lower Passaic River(LPRSA) 관련 EnPro Holdings 등 PRP들은 2026년 2월 OxyChem TX의 연대책임 확인을 구하는 확인소송을 제기했으며 현재 계류 중이다.",
+   "event_date": null,
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "Certain PRPs, including EnPro Holdings, filed a declaratory judgment action in February 2026 to obtain an order holding the newly formed OxyChem TX is jointly and severally liable for its predecessor's CERCLA liabilities"
+   }
+  },
+  {
+   "id": "NPO-30",
+   "section": "6_risks",
+   "tier": "optional",
+   "fact": "회사는 미국·이스라엘과 이란의 분쟁이 반도체 산업 핵심 원재료인 헬륨 공급 등에 심각한 차질을 줄 수 있다는 위험요인을 새로 기재했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0001628280-26-052211",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164863/000162828026052211/npo-20260630.htm",
+    "quote": "cause significant disruption of global energy and petroleum-based products supplies and the supply of helium, a critical raw material for the semiconductor industry"
+   }
+  }
+ ],
+ "searched_not_found": [
+  {
+   "section": "4_events",
+   "checked": "EDGAR 제출목록(2026-04-14~2026-10-11): 8-K는 5.02(4/20), 5.07(4/29), 2.02(5/5, 8/4)뿐. 인수·매각(2.01), 중요계약(1.01), 차입(2.03), 구조조정·손상(2.05/2.06), 사이버(1.05), 감사인(4.01), 상장(3.01) 8-K 없음. 웹검색으로 8월 이후 보도자료도 확인했으나 신규 사건 발견 못함."
+  },
+  {
+   "section": "4_events",
+   "checked": "CIO Joiner 후임 선임 공시(8-K/보도자료) 검색 — 발견 못함."
+  },
+  {
+   "section": "5_legal",
+   "checked": "석면 관련 사항: 2026년 2분기 10-Q Note 14(Commitments and Contingencies)에 석면 소송 기재 없음(환경·Water Valley TCE·Crucible만 기재)."
+  },
+  {
+   "section": "7_industry",
+   "checked": "원 발표기관(SEMI 등) 반도체 장비 통계를 helper로 가져와 검증하지 못해 생략."
+  }
+ ]
+}
