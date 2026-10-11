@@ -99,7 +99,7 @@
       "id": "BZH-02",
       "section": "1_results",
       "tier": "required",
-      "fact": "9개월 누적 영업손익은 $62.2 million 손실로 전년 동기 영업이익 $11.8 million 대비 $74.0 million 감소했으며, 회사는 매출총이익·매출총이익률 하락을 주된 원인으로 밝혔다.",
+      "fact": "9개월 누적 영업손익은 $62.2 million 손실로, 전년 동기 영업이익 $11.8 million 대비 $74.0 million 감소했다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-07",
       "source": {
@@ -113,20 +113,6 @@
       "id": "BZH-03",
       "section": "1_results",
       "tier": "required",
-      "fact": "3분기 영업손실은 $11.4 million으로 전년 동기 $3.7 million 손실보다 $7.7 million 악화되었고, 원인은 매출총이익·매출총이익률 감소였다.",
-      "event_date": "2026-06-30",
-      "published_date": "2026-08-07",
-      "source": {
-        "type": "sec",
-        "doc": "10-Q 0000915840-26-000052",
-        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
-        "quote": "Our operating income decreased by $7.7 million to a loss of $11.4 million for the three months ended June 30, 2026, compared to operating loss of $3.7 million for the three months ended June 30, 2025."
-      }
-    },
-    {
-      "id": "BZH-04",
-      "section": "1_results",
-      "tier": "required",
       "fact": "3분기 GAAP 순손실은 $4.2 million(희석주당 $0.16 손실)으로 전년 동기 순손실 $0.3 million(주당 $0.01 손실)보다 확대되었다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-07",
@@ -138,7 +124,7 @@
       }
     },
     {
-      "id": "BZH-05",
+      "id": "BZH-04",
       "section": "1_results",
       "tier": "required",
       "fact": "9개월 누적 GAAP 순손익은 $(37,728)천 손실로 전년 동기 순이익 $15,584천에서 적자 전환했다.",
@@ -152,7 +138,7 @@
       }
     },
     {
-      "id": "BZH-06",
+      "id": "BZH-05",
       "section": "1_results",
       "tier": "required",
       "fact": "3분기 주택건설 매출은 $490.9 million으로 8.3% 감소했는데, 인도(closings)가 13.4% 줄어 896채가 된 영향이 평균판매가격 5.9% 상승($547.8 thousand)을 상쇄했다.",
@@ -166,7 +152,7 @@
       }
     },
     {
-      "id": "BZH-07",
+      "id": "BZH-06",
       "section": "1_results",
       "tier": "required",
       "fact": "3분기 순손실에는 재고 손상·포기 비용과 채무소멸손실 $3.0 million(주당 $0.07)이 포함되었고, Adjusted EBITDA는 $15.6 million으로 전년 $32.1 million보다 감소했다.",
@@ -180,7 +166,7 @@
       }
     },
     {
-      "id": "BZH-08",
+      "id": "BZH-07",
       "section": "1_results",
       "tier": "required",
       "fact": "9개월 누적 주택건설 매출총이익률(손상·이자 제외)은 주택조합(HOA)과의 비공개 합의에 따른 소송 관련 비용으로 0.5%p 낮아졌다(일회성 항목).",
@@ -194,10 +180,10 @@
       }
     },
     {
-      "id": "BZH-09",
+      "id": "BZH-08",
       "section": "1_results",
       "tier": "optional",
-      "fact": "3분기 순신규주문은 900채로 4.5% 증가했고, 기말 활성 커뮤니티 수는 170개(1.8% 증가)였다.",
+      "fact": "3분기 순신규주문은 900채로 4.5% 증가했으며, 커뮤니티당 월 주문은 1.8건, 평균 활성 커뮤니티 수는 169개였다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-07",
       "source": {
@@ -208,7 +194,7 @@
       }
     },
     {
-      "id": "BZH-10",
+      "id": "BZH-09",
       "section": "2_cash_debt",
       "tier": "required",
       "fact": "9개월 누적 영업활동 현금흐름은 $(375,674)천 순유출로 전년 동기 $(218,196)천보다 유출이 커졌다.",
@@ -222,10 +208,10 @@
       }
     },
     {
-      "id": "BZH-11",
+      "id": "BZH-10",
       "section": "2_cash_debt",
       "tier": "required",
-      "fact": "영업현금 유출 $375.7 million은 주로 토지 취득·개발·주택 건설 지출에 따른 재고 $342.6 million 증가와 세전손실 $60.1 million 때문이었다.",
+      "fact": "9개월 영업현금 유출은 주로 토지 취득·개발·주택 건설 지출에 따른 재고 $342.6 million 증가와 세전손실 $60.1 million 때문이었다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-07",
       "source": {
@@ -236,10 +222,10 @@
       }
     },
     {
-      "id": "BZH-12",
+      "id": "BZH-11",
       "section": "2_cash_debt",
       "tier": "required",
-      "fact": "2026년 6월 30일 현금성자산은 $124.6 million, 리볼버 잔여한도는 $139.2 million으로 전년(각각 $82.9 million, $209.4 million)과 비교된다.",
+      "fact": "2026년 6월 30일 유동성은 현금성자산 $124.6 million과 리볼버 잔여한도 $139.2 million으로 구성되었다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-07",
       "source": {
@@ -250,10 +236,10 @@
       }
     },
     {
-      "id": "BZH-13",
+      "id": "BZH-12",
       "section": "2_cash_debt",
       "tier": "required",
-      "fact": "총차입금(순액)은 2025년 9월 30일 $1,029,114천에서 2026년 6월 30일 $1,409,132천으로 증가했으며, 리볼버 인출 $340.0 million이 포함된다.",
+      "fact": "2026년 6월 30일 무담보 리볼버 인출 잔액은 $340.0 million, 신용장은 $45.8 million으로 잔여한도는 $139.2 million이었다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-07",
       "source": {
@@ -264,10 +250,10 @@
       }
     },
     {
-      "id": "BZH-14",
+      "id": "BZH-13",
       "section": "2_cash_debt",
       "tier": "required",
-      "fact": "분기 중 2032년 만기 신규 선순위채 $400.0 million을 액면 발행하고, 그 대금으로 2027 Notes 잔액 $357.3 million을 상환해 $0.7 million의 채무소멸손실을 인식했다.",
+      "fact": "분기 중 2032년 만기 신규 선순위채(2032 Notes)를 발행하고, 그 대금으로 2027 Notes 잔액 $357.3 million을 상환해 $0.7 million의 채무소멸손실을 인식했다.",
       "event_date": "2026-06-23",
       "published_date": "2026-08-07",
       "source": {
@@ -278,24 +264,10 @@
       }
     },
     {
-      "id": "BZH-15",
+      "id": "BZH-14",
       "section": "2_cash_debt",
       "tier": "required",
-      "fact": "분기 말 총부채/총자본 비율은 55.1%로 전년 48.4%에서 상승했고, 순부채/순자본 비율은 52.8%(전년 46.6%)였다.",
-      "event_date": "2026-06-30",
-      "published_date": "2026-08-07",
-      "source": {
-        "type": "sec",
-        "doc": "8-K EX-99.1 0000915840-26-000049",
-        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
-        "quote": "Total debt to total capitalization ratio of 55.1% at quarter end compared to 48.4% a year ago. Net debt to net capitalization ratio was 52.8% at quarter end compared to 46.6% a year ago"
-      }
-    },
-    {
-      "id": "BZH-16",
-      "section": "2_cash_debt",
-      "tier": "required",
-      "fact": "2032 Notes 발행 시 S&P는 선순위채 및 기업신용등급을 B에서 B-로 하향하고 부정적 전망을 유지했으며, Moody's는 B2 등급을 재확인했다.",
+      "fact": "2026년 6월 2032 Notes 발행 시 S&P는 선순위채 등급과 기업신용등급을 B에서 B-로 하향하고 부정적(negative) 전망을 유지했다.",
       "event_date": "2026-06-23",
       "published_date": "2026-08-07",
       "source": {
@@ -306,21 +278,7 @@
       }
     },
     {
-      "id": "BZH-17",
-      "section": "2_cash_debt",
-      "tier": "optional",
-      "fact": "3분기 자사주 1.0 million주를 $21.0 million에 매입해 연초 이후 누적 매입액은 $66.2 million(2.9 million주)이 되었다.",
-      "event_date": "2026-06-30",
-      "published_date": "2026-08-07",
-      "source": {
-        "type": "sec",
-        "doc": "8-K EX-99.1 0000915840-26-000049",
-        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
-        "quote": "During the third quarter, the Company repurchased 1.0 million shares of its outstanding common stock for an aggregate $21.0 million at an average price per share of $21.01, bringing year-to-date repurchase activity to $66.2 million for 2.9 million shares"
-      }
-    },
-    {
-      "id": "BZH-18",
+      "id": "BZH-15",
       "section": "2_cash_debt",
       "tier": "background",
       "fact": "2026년 3월 무담보 리볼버 약정을 개정해 한도를 $365.0 million에서 $525.0 million으로 늘리고 만기를 2030년 3월 13일로 연장했다(조사 창 이전 사건).",
@@ -334,7 +292,7 @@
       }
     },
     {
-      "id": "BZH-19",
+      "id": "BZH-16",
       "section": "3_guidance",
       "tier": "required",
       "fact": "(현재) 2026년 8월 7일 회사는 Dream Finders Homes와의 합병 계약을 이유로 기존에 제시한 재무 전망을 철회하고 실적 컨퍼런스콜을 취소했다.",
@@ -348,10 +306,10 @@
       }
     },
     {
-      "id": "BZH-20",
+      "id": "BZH-17",
       "section": "3_guidance",
       "tier": "required",
-      "fact": "(직전) 2026년 4월 30일 실적발표 콜에서 회사는 3분기 Adjusted EBITDA를 $5 million-$10 million으로 제시했다(실제 3분기 Adjusted EBITDA는 $15.6 million).",
+      "fact": "(직전) 2026년 4월 30일 실적발표 콜에서 회사는 3분기 Adjusted EBITDA를 $5 million-$10 million, 연간 토지매각 매출을 $150 million으로 제시했다(실제 3분기 Adjusted EBITDA $15.6 million은 BZH-07 참조).",
       "event_date": "2026-04-30",
       "published_date": "2026-04-30",
       "source": {
@@ -362,10 +320,10 @@
       }
     },
     {
-      "id": "BZH-21",
+      "id": "BZH-18",
       "section": "3_guidance",
       "tier": "required",
-      "fact": "(직전) 같은 콜에서 3분기 약 1,000채 초과 판매, 기말 약 170개 커뮤니티, 약 900채 인도와 ASP $535,000-$540,000을 전망했다(실제: 주문 900채, 커뮤니티 170개, 인도 896채, ASP $547.8 thousand).",
+      "fact": "(직전) 같은 콜에서 3분기 1,000채 초과 판매와 기말 약 170개 활성 커뮤니티를 전망했다(실제는 순신규주문 900채, 기말 커뮤니티 170개 — BZH-08, BZH-23 참조).",
       "event_date": "2026-04-30",
       "published_date": "2026-04-30",
       "source": {
@@ -376,10 +334,10 @@
       }
     },
     {
-      "id": "BZH-22",
+      "id": "BZH-19",
       "section": "3_guidance",
       "tier": "required",
-      "fact": "(직전 대비 하향) 4월 30일 콜에서 회사는 1월 제시한 하반기 판매속도 2.5 초과·4분기까지 300bp 마진 확대 조건을 판매속도 2 초과·200~300bp 확대로 낮추며 연간 EBITDA 성장 가능성이 줄었다고 밝혔다.",
+      "fact": "(직전 전망 하향) 4월 30일 콜에서 회사는 남은 기간 판매속도 2 초과와 4분기까지 200~300bp 마진 확대가 더 현실적인 결과라고 밝혔다.",
       "event_date": "2026-04-30",
       "published_date": "2026-04-30",
       "source": {
@@ -390,10 +348,38 @@
       }
     },
     {
-      "id": "BZH-23",
+      "id": "BZH-20",
       "section": "3_guidance",
       "tier": "required",
-      "fact": "(직전) 2분기 10-Q에서 회사는 2027회계연도 말까지 활성 커뮤니티 200개 초과, 순부채/순자본 30% 초반, 2024~2027 주당순자산 두 자릿수 연평균 성장이라는 Multi-Year Goals를 유지했다.",
+      "fact": "(그 이전 전망) 같은 콜에서 회사는 직전 분기(1월)에 연간 EBITDA 성장 조건으로 하반기 판매속도 2.5 초과와 4분기까지 300bp 마진 확대를 제시했었다고 밝혔다.",
+      "event_date": "2026-04-30",
+      "published_date": "2026-04-30",
+      "source": {
+        "type": "transcript",
+        "doc": "MarketBeat — Beazer Homes USA Q2 2026 Earnings Call Transcript (provided by Quartr), 2026-04-30",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-4-30-beazer-homes-usa-inc-stock/",
+        "quote": "Among other items, this included a sales pace above 2.5 in the second half of the year and 300 basis points of margin expansion by the fourth quarter."
+      }
+    },
+    {
+      "id": "BZH-21",
+      "section": "3_guidance",
+      "tier": "optional",
+      "fact": "(직전) 같은 콜에서 3분기 약 900채 인도와 ASP $535,000-$540,000을 전망했다(실제 인도 896채, ASP $547.8 thousand — 1_results 항목 참조).",
+      "event_date": "2026-04-30",
+      "published_date": "2026-04-30",
+      "source": {
+        "type": "transcript",
+        "doc": "MarketBeat — Beazer Homes USA Q2 2026 Earnings Call Transcript (provided by Quartr), 2026-04-30",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-4-30-beazer-homes-usa-inc-stock/",
+        "quote": "We anticipate closing about 900 homes with an ASP between $535,000-$540,000 as our newer communities contribute a larger share of closings."
+      }
+    },
+    {
+      "id": "BZH-22",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "(직전) 2분기 10-Q에서 회사는 2027회계연도 말까지 활성 커뮤니티 200개 초과, 순부채/순자본 30% 초반를 포함한 Multi-Year Goals를 유지했다.",
       "event_date": "2026-04-30",
       "published_date": "2026-04-30",
       "source": {
@@ -404,7 +390,7 @@
       }
     },
     {
-      "id": "BZH-24",
+      "id": "BZH-23",
       "section": "3_guidance",
       "tier": "required",
       "fact": "(현재) 3분기 10-Q는 Multi-Year Goals 전체 문단 없이 2027회계연도 말까지 활성 커뮤니티 200개 달성을 향해 계속 노력한다는 문구만 남겼다.",
@@ -418,24 +404,24 @@
       }
     },
     {
-      "id": "BZH-25",
+      "id": "BZH-24",
       "section": "4_events",
       "tier": "required",
-      "fact": "2026년 8월 6일 회사는 Dream Finders Homes, Inc.와 합병계약을 체결했으며, 주주는 주당 $33.50을 현금으로 받게 된다(8-K Item 1.01).",
+      "fact": "2026년 8월 6일 회사는 Dream Finders Homes, Inc.(및 그 자회사 Bulldogs Merger Sub)와 합병계약을 체결했다(8-K Item 1.01; 합병대가는 BZH-26 참조).",
       "event_date": "2026-08-06",
       "published_date": "2026-08-07",
       "source": {
         "type": "sec",
         "doc": "8-K 0001104659-26-092299",
         "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926092299/tm2622398d1_8k.htm",
-        "quote": "will be converted into the right to receive $33.50 per Share in cash, without interest (the “Merger Consideration”), and subject to any required withholding taxes."
+        "quote": "On August 6, 2026, Beazer Homes USA, Inc., a Delaware corporation (the “Company”), entered into an Agreement and Plan of Merger (the “Merger Agreement”) with Dream Finders Homes, Inc., a Texas corporation (“Parent”)"
       }
     },
     {
-      "id": "BZH-26",
+      "id": "BZH-25",
       "section": "4_events",
       "tier": "required",
-      "fact": "합병계약상 특정 조건(우월제안 수락 등)으로 계약이 해지되면 회사는 Dream Finders에 $31.3 million의 해지수수료를 지급해야 한다.",
+      "fact": "합병계약이 특정 상황에서 해지되면 회사는 Dream Finders에 $31.3 million의 해지수수료를 지급해야 한다.",
       "event_date": "2026-08-06",
       "published_date": "2026-08-07",
       "source": {
@@ -446,7 +432,7 @@
       }
     },
     {
-      "id": "BZH-27",
+      "id": "BZH-26",
       "section": "4_events",
       "tier": "required",
       "fact": "공동 보도자료에 따르면 거래의 기업가치는 약 $2.2 billion이며, 주당 $33.50은 장부가 대비 0.8x에 해당한다.",
@@ -460,24 +446,10 @@
       }
     },
     {
-      "id": "BZH-28",
-      "section": "4_events",
-      "tier": "optional",
-      "fact": "2026년 8월 6일 이사회는 내규를 개정해 델라웨어 형평법원을 회사법 관련 소송의 전속 관할로 정했다(8-K Item 5.03).",
-      "event_date": "2026-08-06",
-      "published_date": "2026-08-07",
-      "source": {
-        "type": "sec",
-        "doc": "8-K 0001104659-26-092299",
-        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926092299/tm2622398d1_8k.htm",
-        "quote": "On August 6, 2026, the Board adopted an amendment (the “Amendment”) to the Fourth Amended and Restated Bylaws of the Company (the “Bylaws”), which became effective immediately."
-      }
-    },
-    {
-      "id": "BZH-29",
+      "id": "BZH-27",
       "section": "4_events",
       "tier": "required",
-      "fact": "2026년 6월 23일 회사는 2032년 만기 8.000% 선순위채 $400 million을 사모 발행했고, 순조달금을 2027년 만기 5.875% 선순위채 $357.3 million 상환에 쓰기로 했다(8-K Items 1.01/2.03/8.01).",
+      "fact": "2026년 6월 23일 회사는 2032년 만기 8.000% 선순위채 $400 million을 사모 발행했다(8-K Items 1.01/2.03/8.01; 2027 Notes 상환은 BZH-13 참조).",
       "event_date": "2026-06-23",
       "published_date": "2026-06-23",
       "source": {
@@ -488,7 +460,7 @@
       }
     },
     {
-      "id": "BZH-30",
+      "id": "BZH-28",
       "section": "4_events",
       "tier": "required",
       "fact": "2026년 9월 18일 회사는 Dream Finders의 동의권유에 따라 2032 Notes·2031 Notes 계약을 보완해 합병이 '지배권 변경(Change of Control)'에 해당하지 않도록 개정했다(8-K Item 1.01).",
@@ -502,10 +474,10 @@
       }
     },
     {
-      "id": "BZH-31",
+      "id": "BZH-29",
       "section": "4_events",
       "tier": "required",
-      "fact": "2026년 9월 28일 회사는 2029년 만기 7.250% 선순위채 $350.0 million을 2026년 10월 20일 원금의 101.208%에 상환하겠다는 합병 완료 조건부 상환통지를 발행했다(8-K Item 8.01).",
+      "fact": "2026년 9월 28일 회사는 2029년 만기 7.250% 선순위채 $350.0 million을 2026년 10월 20일 상환하겠다는 합병 완료 조건부 상환통지를 발행했다(8-K Item 8.01).",
       "event_date": "2026-09-28",
       "published_date": "2026-09-28",
       "source": {
@@ -516,10 +488,10 @@
       }
     },
     {
-      "id": "BZH-32",
+      "id": "BZH-30",
       "section": "4_events",
       "tier": "optional",
-      "fact": "확정 위임장(DEFM14A)에 따르면 합병 승인 임시주주총회는 2026년 10월 15일 온라인으로 열리며 기준일은 2026년 9월 14일이다.",
+      "fact": "확정 위임장(DEFM14A)에 따르면 합병 승인 임시주주총회는 2026년 10월 15일 온라인으로 열릴 예정이다.",
       "event_date": "2026-10-15",
       "published_date": "2026-09-15",
       "source": {
@@ -530,21 +502,7 @@
       }
     },
     {
-      "id": "BZH-33",
-      "section": "4_events",
-      "tier": "optional",
-      "fact": "합병에 대한 HSR법 대기기간 조기종료가 2026년 9월 9일 승인되었다.",
-      "event_date": "2026-09-09",
-      "published_date": "2026-09-15",
-      "source": {
-        "type": "sec",
-        "doc": "DEFM14A 0001104659-26-107656",
-        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926107656/tm2622398-15_defm14a.htm",
-        "quote": "Early termination of the waiting period under the HSR Act with respect to the Merger was granted on September 9, 2026."
-      }
-    },
-    {
-      "id": "BZH-34",
+      "id": "BZH-31",
       "section": "5_legal",
       "tier": "required",
       "fact": "회사는 건설하자 등 소송과 관련해 2026년 6월 30일 기준 $12.3 million(2025년 9월 30일 $9.9 million)의 소송충당금을 기타부채에 계상하고 있다.",
@@ -558,7 +516,7 @@
       }
     },
     {
-      "id": "BZH-35",
+      "id": "BZH-32",
       "section": "6_risks",
       "tier": "optional",
       "fact": "변동금리 부채(후순위채와 리볼버 인출) 약 $420.0 million에 대해 금리가 1%p 오르면 향후 12개월 이자비용이 약 $4.4 million 증가한다.",
@@ -568,49 +526,21 @@
         "type": "sec",
         "doc": "10-Q 0000915840-26-000052",
         "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
-        "quote": "As of June 30, 2026, we had variable rate debt outstanding related to our Junior Subordinated Notes and outstanding borrowings under our Unsecured Facility totaling approximately $420.0 million."
+        "quote": "totaling approximately $420.0 million. A one percent increase in the interest rate for these notes would result in an increase of our interest expense by approximately $4.4 million over the next twelve-month period."
       }
     },
     {
-      "id": "BZH-36",
-      "section": "6_risks",
-      "tier": "optional",
-      "fact": "회사는 합병이 적시에 완료되지 않거나 해지수수료를 지급해야 하는 상황 등 Dream Finders 합병 관련 위험을 구체적 위험으로 제시했다.",
-      "event_date": "2026-08-06",
-      "published_date": "2026-08-07",
-      "source": {
-        "type": "sec",
-        "doc": "10-Q 0000915840-26-000052",
-        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
-        "quote": "(i) the risk that the Transactions may not be completed in a timely manner or at all, which may adversely affect our businesses and the price of the shares of our common stock; (ii) the risk that the Merger Agreement may be terminated in circumstances that require us to pay a termination fee"
-      }
-    },
-    {
-      "id": "BZH-37",
+      "id": "BZH-33",
       "section": "7_industry",
       "tier": "optional",
-      "fact": "미국 인구조사국에 따르면 2026년 8월 신규 단독주택 판매는 계절조정 연율 684,000채로 7월보다 6.4% 많고 2025년 8월보다 2.0% 적었다.",
+      "fact": "미국 인구조사국·HUD에 따르면 2026년 8월 신규 단독주택 판매(계절조정 연율)는 2026년 7월 643,000채보다 6.4% 많고 2025년 8월 698,000채보다 2.0% 적었다.",
       "event_date": "2026-08-31",
       "published_date": "2026-09-24",
       "source": {
         "type": "industry",
         "doc": "U.S. Census Bureau / HUD — Monthly New Residential Sales, August 2026 (CB26-155)",
         "url": "https://www.census.gov/construction/nrs/current/index.html",
-        "quote": "Sales of new single-family houses in August 2026 were at a seasonally-adjusted annual rate of 684,000, according to estimates released jointly today by the U.S. Census Bureau and the Department of Housing and Urban Development."
-      }
-    },
-    {
-      "id": "BZH-38",
-      "section": "7_industry",
-      "tier": "optional",
-      "fact": "2026년 8월 민간 주택착공은 계절조정 연율 1,275,000호로 7월 대비 2.6%, 전년 동월 대비 1.2% 감소했다.",
-      "event_date": "2026-08-31",
-      "published_date": "2026-09-17",
-      "source": {
-        "type": "industry",
-        "doc": "U.S. Census Bureau / HUD — Monthly New Residential Construction, August 2026 (CB26-147)",
-        "url": "https://www.census.gov/construction/nrc/current/index.html",
-        "quote": "Privately-owned housing starts in August were at a seasonally adjusted annual rate of 1,275,000."
+        "quote": "and the Department of Housing and Urban Development. This is 6.4 percent (±19.5 percent)* above the July 2026 rate of 643,000, and is 2.0 percent (±15.7 percent)* below the August 2025 rate of 698,000."
       }
     }
   ],

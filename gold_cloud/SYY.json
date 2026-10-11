@@ -1,0 +1,669 @@
+{
+  "company": {
+    "ticker": "SYY",
+    "cik": "0000096021",
+    "name": "Sysco Corp"
+  },
+  "cutoff": "2026-10-11",
+  "latest_periodic_report": {
+    "form": "10-K",
+    "accession": "0000096021-26-000033",
+    "period_end": "2026-06-27",
+    "filed": "2026-08-21"
+  },
+  "choi": [
+    {
+      "target": "operating_income",
+      "status": "value",
+      "value_usd": 3095000000,
+      "printed": "3,095",
+      "printed_scale": "millions",
+      "period_start": "2025-06-29",
+      "period_end": "2026-06-27",
+      "source": {
+        "doc": "10-K 0000096021-26-000033",
+        "location": "Consolidated Results of Operations",
+        "quote": "Operating income 3,095 3,088 3,202"
+      },
+      "xbrl": {
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "value": 3095000000
+      },
+      "note": "FY2026 = 52주(2025-06-29~2026-06-27), XBRL 컨텍스트 기간과 일치."
+    },
+    {
+      "target": "short_term_borrowings",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-06-27",
+      "source": {
+        "doc": "10-K 0000096021-26-000033",
+        "location": "Note 12 Debt (commercial paper programs)",
+        "quote": "Any outstanding amounts are classified within long-term debt, as the program is supported by the long-term revolving credit facility noted above. As of June 27, 2026, there were no commercial paper issuances outstanding under this program in the U.S."
+      },
+      "xbrl": null,
+      "note": "유동부채 목록은 Accounts payable, Accrued expenses, Accrued income taxes, Current operating lease liabilities, Current maturities of long-term debt뿐이며 단기차입금(notes payable) 행이 없다. CP는 장기 리볼버로 뒷받침되어 장기부채로 분류되며, 기말 미국·유럽 CP 잔액과 리볼버 차입 모두 없음('As of June 27, 2026, there were no commercial paper issuances outstanding in Europe', 'there were no borrowings outstanding under this facility')."
+    },
+    {
+      "target": "current_long_term_debt_ex_leases",
+      "status": "value",
+      "value_usd": 1129000000,
+      "printed": "1,201",
+      "printed_scale": "millions",
+      "period_start": null,
+      "period_end": "2026-06-27",
+      "source": {
+        "doc": "10-K 0000096021-26-000033",
+        "location": "Consolidated Balance Sheets / Note 12 Debt",
+        "quote": "Less current maturities of long-term debt (1,201) (949)"
+      },
+      "xbrl": {
+        "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+        "value": 1201000000
+      },
+      "note": "대차대조표 'Current maturities of long-term debt' 1,201에는 유동 금융리스부채 72가 포함됨(리스 주석: 'Current finance lease liabilities Current maturities of long-term debt 72 65'). 리스 제외 값 = 1,201 - 72 = 1,129 million(공시 수치 간 차감). XBRL 태그 값(1,201)은 리스 포함 합계라 value_usd와 다름. 이 중 $1.0 billion 선순위채는 2026-07-15 만기 상환."
+    },
+    {
+      "target": "current_finance_leases",
+      "status": "value",
+      "value_usd": 72000000,
+      "printed": "72",
+      "printed_scale": "millions",
+      "period_start": null,
+      "period_end": "2026-06-27",
+      "source": {
+        "doc": "10-K 0000096021-26-000033",
+        "location": "Leases note - finance lease liabilities balance sheet location",
+        "quote": "Current finance lease liabilities Current maturities of long-term debt 72 65"
+      },
+      "xbrl": {
+        "tag": "us-gaap:FinanceLeaseLiabilityCurrent",
+        "value": 72000000
+      },
+      "note": "대차대조표상 'Current maturities of long-term debt'에 포함되어 표시됨."
+    }
+  ],
+  "kim": [
+    {
+      "id": "SYY-01",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026 회계연도(52주, 2026-06-27 종료) 매출은 $84,553 million(전년 $81,370 million), 영업이익은 3,095 million(전년 3,088 million), 이자비용은 717 million(전년 635 million)이었다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "Sales $ 84,553 $ 81,370 $ 78,844 Cost of sales 68,914 66,401 64,236 Gross profit 15,639 14,969 14,608 Operating expenses 12,544 11,881 11,406 Operating income 3,095 3,088 3,202 Interest expense 717 635 607"
+      }
+    },
+    {
+      "id": "SYY-02",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026 회계연도 GAAP 순이익은 $1,757 million으로 전년 $1,828 million보다 감소했고, 희석 EPS는 3.66달러(전년 3.73달러)였다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "Net earnings $ 1,757 $ 1,828 $ 1,955 Net earnings: Basic earnings per share $ 3.67 $ 3.74 $ 3.90 Diluted earnings per share 3.66 3.73 3.89"
+      }
+    },
+    {
+      "id": "SYY-03",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "4분기(13주, 2026-06-27 종료) 매출은 $22.1 billion으로 4.7% 증가했고 영업이익은 $983 million으로 10.6% 증가했다(연간 매출 $84.6 billion, 3.9% 증가).",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "Sales $22.1 billion 4.7% $84.6 billion 3.9% Gross Profit $4.1 billion 3.7% $15.6 billion 4.5% Gross Margin 18.7% -17 bps 18.5% 10 bps Operating Expenses $3.2 billion 1.7% $12.5 billion 5.6% Operating Income $983 million 10.6% $3.1 billion 0.2%"
+      }
+    },
+    {
+      "id": "SYY-04",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "4분기 순이익은 $551 million으로 3.8% 증가했고 연간 순이익은 $1.8 billion으로 3.9% 감소했으며, 4분기 희석 EPS는 $1.15(4.5% 증가), 연간은 $3.66(1.9% 감소)이었다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "Net Earnings $551 million 3.8% $1.8 billion -3.9% Diluted Earnings Per Share $1.15 4.5% $3.66 -1.9%"
+      }
+    },
+    {
+      "id": "SYY-05",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026 회계연도 조정 EPS는 3.4% 증가한 $4.61이며, 이는 전년 대비 늘어난 인센티브 보상비용 $100 million(EPS $0.16 영향)을 포함한 수치다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "EPS2 decreased 1.9% to $3.66, and adjusted EPS1,2 increased 3.4% to $4.61, inclusive of higher incentive compensation costs of $100 million, as previously disclosed, representing a $0.16 impact to EPS"
+      }
+    },
+    {
+      "id": "SYY-06",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "회사는 연간 영업비용이 5.6% 늘어난 원인으로 영업인력·설비 투자, 인센티브 보상 증가, 인수 관련 비용을 들었다(비용절감으로 일부 상쇄).",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "Operating expenses increased 5.6%, primarily driven by sales headcount and capacity investments, higher incentive compensation, and acquisition-related costs, partially offset by cost-out efficiencies."
+      }
+    },
+    {
+      "id": "SYY-07",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "연간 매출총이익 증가는 물량 증가, 전략적 소싱 효율, 제품원가 인플레이션(전사 3.0%) 관리에 따른 것이라고 회사가 밝혔다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "Product cost inflation was 3.0% at the total enterprise level, as measured by the estimated change in Sysco's product costs, primarily in the meat and seafood categories. The increase in gross profit for the year was primarily driven by positive volumes, strategic sourcing efficiencies"
+      }
+    },
+    {
+      "id": "SYY-08",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026 회계연도 일회성 조정 항목에는 법률 사안 관련 비용, 브리지론 발행비용 상각, Jetro Restaurant Depot 인수자금 금리위험 헤지용 deal contingent rate lock 손실이 포함됐다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "Fiscal year 2026 results of operations also remove the impact of a charge associated with a legal matter, amortization expense associated with debt issuance costs on a bridge loan facility, and a loss on deal contingent rate lock transactions"
+      }
+    },
+    {
+      "id": "SYY-09",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026 회계연도 기타비용(순) $102 million 중 $54 million은 Jetro Restaurant Depot 인수 관련 deal contingent rate lock 거래 손실이다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "Fiscal year 2026 represents $102 million in GAAP other expense (income), net less $54 million in expense from a loss on deal contingent rate lock transactions"
+      }
+    },
+    {
+      "id": "SYY-10",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026 회계연도 영업활동 순현금유입은 2,638 million으로 전년 2,510 million보다 증가했다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "Net cash provided by operating activities 2,638 2,510 2,989"
+      }
+    },
+    {
+      "id": "SYY-11",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026-06-27 현재 현금및현금성자산은 $1,786 million(전년 말 $1,071 million)이다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "Cash and cash equivalents $ 1,786 $ 1,071"
+      }
+    },
+    {
+      "id": "SYY-12",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "총부채 장부가액은 2026-06-27 $13.5 billion으로 전년 $13.3 billion에서 늘었으며, 2026년 2월 발행 선순위채(Notes) 때문이고 2025년 10월 만기 상환 등으로 일부 상쇄됐다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "The total carrying value of our debt was $13.5 billion as of June 27, 2026 and $13.3 billion as of June 28, 2025. The increase in the carrying value of our debt from the prior year was due to the issuance of the Notes (as defined below)"
+      }
+    },
+    {
+      "id": "SYY-13",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026년 7월 Sysco는 기말 유동성 장기부채로 분류돼 있던 만기 선순위채 $1.0 billion을 상환했다.",
+      "event_date": "2026-07-15",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "In July 2026, Sysco repaid $1.0 billion of matured senior notes that were classified within current maturities of long-term debt as of June 27, 2026."
+      }
+    },
+    {
+      "id": "SYY-14",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "Jetro Restaurant Depot 인수 현금대가, JRD 부채 차환 및 거래비용은 $21 billion의 신규 채무·하이브리드 채무와 $1 billion의 보유현금·주식(연계증권)으로 조달할 계획이다.",
+      "event_date": null,
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "the fees and expenses of the Transactions are expected to be financed with a combination of $21 billion of new debt and hybrid debt, and $1 billion of cash on hand, equity or equity-linked securities"
+      }
+    },
+    {
+      "id": "SYY-15",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026 회계연도 자사주 매입은 200 million(전년 1,250 million), 배당금 지급은 1,037 million(전년 1,000 million)이었다.",
+      "event_date": "2026-06-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "Stock repurchases (200) (1,250) (1,232) Dividends paid (1,037) (1,000) (1,008)"
+      }
+    },
+    {
+      "id": "SYY-16",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "2026-08-04 4분기 실적발표에서 53주 기준 2027 회계연도 가이던스로 매출 6%-7% 성장, 조정 EPS 9%-11% 성장을 처음 제시했다.",
+      "event_date": "2026-08-04",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "Introduction of fiscal year 2027 guidance of 6%-7% sales growth and 9%-11% adjusted EPS1 growth on a 53-week basis"
+      }
+    },
+    {
+      "id": "SYY-17",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "2026-09-09 회사는 2027 회계연도 가이던스를 재확인하며 조정 EPS 약 $5.02~$5.12(약 9%~11% 성장)를 제시했다.",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-09",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000950142-26-002525",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226002525/eh260827503_ex9901.htm",
+        "quote": "Adjusted earnings per share of approximately $5.02 to $5.12, representing growth of approximately 9% to 11%"
+      }
+    },
+    {
+      "id": "SYY-18",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "직전 전망(2026-04-28 3분기 발표): 2026 회계연도 조정 EPS 가이던스 $4.50~$4.60 범위의 상단 달성을 자신한다고 밝혔다.",
+      "event_date": "2026-04-28",
+      "published_date": "2026-04-28",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000019",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000019/syypressrelease-fy26q3.htm",
+        "quote": "adjusted EPS at the high end of our $4.50 to $4.60 guidance range, which continues to include an approximate $100 million ($0.16 per diluted share) headwind from lapping lower incentive compensation in fiscal 2025."
+      }
+    },
+    {
+      "id": "SYY-19",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "회사는 2026 회계연도 실적이 앞서 제시한 분기·연간 가이던스를 상회했다고 밝혔다(연간 조정 EPS $4.61).",
+      "event_date": "2026-08-04",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000096021-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000026/syy2026q4pressrelease.htm",
+        "quote": "We exceeded our previously communicated guidance for the quarter and the year, as our company specific initiatives drove tangible results across our business."
+      }
+    },
+    {
+      "id": "SYY-20",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "2026-09-09 중기(2028·2029 회계연도) 목표를 매출 성장 약 4%-7%(기존 4%-6%), 조정 EPS 성장 9%-11%(기존 6%-8%)로 상향했다.",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-09",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000950142-26-002525",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226002525/eh260827503_ex9901.htm",
+        "quote": "raising the Company's mid-term growth algorithm which now includes net sales growth of approximately 4%-7% (previously 4%-6%) and adjusted EPS growth of 9%-11% (previously 6%-8%)."
+      }
+    },
+    {
+      "id": "SYY-21",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "2026-09-09 회사는 2029 회계연도까지 최소 $500 million의 AI 기반 효율화 절감 목표를 새로 제시했다.",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-09",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000950142-26-002525",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226002525/eh260827503_ex9901.htm",
+        "quote": "Sysco is targeting at least $500 million of AI powered efficiency savings to be realized by fiscal 2029."
+      }
+    },
+    {
+      "id": "SYY-22",
+      "section": "4_events",
+      "tier": "background",
+      "fact": "2026-03-30 Sysco는 JRD Unico와 Warehouse Realty(Jetro Restaurant Depot) 인수 합병계약을 체결했으며, 대가는 현금 $21.6 billion과 HoldCo 보통주 91.5 million주다.",
+      "event_date": "2026-03-30",
+      "published_date": "2026-03-30",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0000950142-26-000922",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226000922/eh260755710_8k.htm",
+        "quote": "The aggregate purchase price paid by Sysco will consist of $21.6 billion in cash, subject to customary adjustments, and 91.5 million shares of HoldCo Common Stock"
+      }
+    },
+    {
+      "id": "SYY-23",
+      "section": "4_events",
+      "tier": "background",
+      "fact": "2026-03-27 Tom Peck 최고정보·디지털책임자(EVP)가 2026-04-10자로 사임하겠다고 통보했다.",
+      "event_date": "2026-03-27",
+      "published_date": "2026-04-02",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001193125-26-140436",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000119312526140436/d103940d8k.htm",
+        "quote": "On March 27, 2026, Mr. Tom Peck, Executive Vice President, Chief Information and Digital Officer of Sysco Corporation (the \"Company\"), notified the Company of his decision to resign from his position, effective April 10, 2026."
+      }
+    },
+    {
+      "id": "SYY-24",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-04-16 기존 $3.0 billion 리볼버를 대체하는 신규 리볼빙 신용계약을 체결했으며, 약정액 $3.0 billion은 JRD 인수 완료 후 $4.0 billion으로 늘어난다.",
+      "event_date": "2026-04-16",
+      "published_date": "2026-04-20",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001193125-26-164087",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000119312526164087/d290779d8k.htm",
+        "quote": "The aggregate commitments of the lenders under the New Revolver Credit Agreement, as of the effective date, are $3.0 billion, and such commitments will increase to $4.0 billion from and after the consummation of the previously announced acquisition of JRD Unico, Inc."
+      }
+    },
+    {
+      "id": "SYY-25",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-04-16 JRD 인수자금용 $3.0 billion 텀론 신용계약(Tranche A $1.25 billion, Tranche B $1.75 billion)을 체결했다.",
+      "event_date": "2026-04-16",
+      "published_date": "2026-04-20",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001193125-26-164087",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000119312526164087/d290779d8k.htm",
+        "quote": "The aggregate commitments of the lenders under the New Term Credit Agreement, as of the effective date, are $3.0 billion, which consists of a $1.25 billion tranche of commitments (the \"Tranche A Commitments\") and a $1.75 billion tranche of commitments (the \"Tranche B Commitments\")."
+      }
+    },
+    {
+      "id": "SYY-26",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "2026-05-18 JRD 인수 관련 투자자 프레젠테이션을 Reg FD(7.01)로 제출했다.",
+      "event_date": "2026-05-18",
+      "published_date": "2026-05-18",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0000950142-26-001434",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226001434/eh260780816_8k.htm",
+        "quote": "Sysco made a presentation to certain investors regarding the acquisition."
+      }
+    },
+    {
+      "id": "SYY-27",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-07-01 Sysco 자회사 New Slider Holdco(이후 Sysco Holdings Corporation)가 JRD 합병 관련 Form S-4 등록신고서를 SEC에 제출했다.",
+      "event_date": "2026-07-01",
+      "published_date": "2026-07-02",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-079979",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000110465926079979/tm2619427d1_8k.htm",
+        "quote": "On July 1, 2026, New Slider Holdco, Inc., a Delaware corporation (\"New Slider HoldCo\") and wholly-owned subsidiary of Sysco Corporation (\"Sysco\"), filed with the Securities and Exchange Commission (the \"SEC\") a registration statement on Form S-4"
+      }
+    },
+    {
+      "id": "SYY-28",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-08-14 이사회는 이사 정원을 11명에서 13명으로 늘리고 Jason Murray와 Thomas Ondrof를 2026-09-01자 이사로 선임했다.",
+      "event_date": "2026-08-14",
+      "published_date": "2026-08-20",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0000096021-26-000030",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000030/syy-20260814.htm",
+        "quote": "increased the size of the Board from eleven to thirteen directors and elected Mr. Jason Murray and Mr. Thomas Ondrof to fill the resulting vacancies, effective on September 1, 2026."
+      }
+    },
+    {
+      "id": "SYY-29",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-04 리볼빙 신용계약 1차 개정으로 CoBank 등과 $750 million 선순위 무담보 지연인출 텀론(6년·8년 각 $375 million)을 설정했다.",
+      "event_date": "2026-09-04",
+      "published_date": "2026-09-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0000950142-26-002498",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226002498/eh260826448_8k.htm",
+        "quote": "to the Revolving Credit Agreement to establish a $750 million senior unsecured delayed draw term loan facility (the \"CoBank Term Loan\")"
+      }
+    },
+    {
+      "id": "SYY-30",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-01 보상위원회는 JRD 인수 완료를 조건으로 Hourican CEO에게 $2 million, Sewell 임시 CFO에게 $1 million 상당의 일회성 PSU를 부여했으며, 인수 완료는 2027년 3분기까지로 예상된다고 밝혔다.",
+      "event_date": "2026-09-01",
+      "published_date": "2026-09-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0000950142-26-002498",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226002498/eh260826448_8k.htm",
+        "quote": "one-time awards of performance share units (\"PSUs\") valued at $2 million for Mr. Hourican and $1 million for Mr. Sewell."
+      }
+    },
+    {
+      "id": "SYY-31",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-14 JRD의 감사받은 결합재무제표(2025·2024년)와 Sysco 프로포마 재무제표를 증권신고서 편입 목적으로 8-K(8.01)로 제출했다.",
+      "event_date": "2026-09-14",
+      "published_date": "2026-09-14",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-107510",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000110465926107510/tm2625144d3_8k.htm",
+        "quote": "the audited combined financial statements of JRD and Affiliates as of and for the years ended December 27, 2025 and December 28, 2024"
+      }
+    },
+    {
+      "id": "SYY-32",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-14 보통주 12,345,679주를 주당 $81.00에 공모하는 인수계약을 체결했다(JRD 인수대금 일부 충당 목적).",
+      "event_date": "2026-09-14",
+      "published_date": "2026-09-16",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-108285",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000110465926108285/tm2625144d7_8k.htm",
+        "quote": "with respect to the offering and sale of 12,345,679 shares of its common stock, par value $1.00 per share (\"Common Stock\"), at a public offering price of $81.00 per share"
+      }
+    },
+    {
+      "id": "SYY-33",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-22 Sysco와 Sysco Holdings는 USD 선순위채(2029년물 $1,750 million 등), CAD 선순위채, USD·EUR 후순위채 발행을 위한 인수계약을 체결했다.",
+      "event_date": "2026-09-22",
+      "published_date": "2026-09-24",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-110464",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000110465926110464/tm2625144d25_8k.htm",
+        "quote": "of (i) $1,750 million aggregate principal amount of 5.450% Senior Notes due 2029"
+      }
+    },
+    {
+      "id": "SYY-34",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-25 C$750 million 4.250% 2030년 만기와 C$750 million 4.800% 2034년 만기 선순위채를 발행했다.",
+      "event_date": "2026-09-25",
+      "published_date": "2026-09-25",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-110977",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000110465926110977/tm2625144d26_8k.htm",
+        "quote": "issued and sold (i) C$750 million aggregate principal amount of the Issuers' 4.250% Senior Notes due 2030 (the \"2030 Notes\") and (ii) C$750 million aggregate principal amount of the Issuers' 4.800% Senior Notes due 2034"
+      }
+    },
+    {
+      "id": "SYY-35",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-10-06 USD 선순위채 $10.75 billion, USD 후순위채 $3.9 billion, 유로 후순위채 €1.0 billion을 발행했다(JRD 인수대금 충당 목적).",
+      "event_date": "2026-10-06",
+      "published_date": "2026-10-06",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-114079",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000110465926114079/tm2625144d27_8k.htm",
+        "quote": "issued and sold (i) $10.75 billion aggregate principal amount of USD Senior Notes (as defined below), (ii) $3.9 billion aggregate principal amount of USD Junior Subordinated Notes (as defined below) and (iii) €1.0 billion aggregate principal amount of Euro Junior Subordinated Notes"
+      }
+    },
+    {
+      "id": "SYY-36",
+      "section": "5_legal",
+      "tier": "required",
+      "fact": "2026-05-27 Sysco와 Jetro Restaurant Depot는 HSR법에 따라 FTC로부터 추가자료 요청(second request)을 받았다.",
+      "event_date": "2026-05-27",
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "On May 27, 2026, Sysco and Jetro Restaurant Depot each received a request for additional information and documentary material, often referred to as a \"second request,\" from the FTC under the HSR Act."
+      }
+    },
+    {
+      "id": "SYY-37",
+      "section": "5_legal",
+      "tier": "required",
+      "fact": "10-K에서 회사는 개별 또는 합산하여 재무상태·영업성과·현금흐름에 중대한 악영향을 줄 계류 소송은 없다고 밝혔다.",
+      "event_date": null,
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "We do not believe there are any pending legal proceedings that, individually or in the aggregate, will have a material adverse effect on the company's financial condition, results of operations or cash flows."
+      }
+    },
+    {
+      "id": "SYY-38",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "신용등급: Moody's는 Baa2에 등급전망 검토 중(under review), S&P는 BBB에 부정적 전망을 부여하고 있다.",
+      "event_date": null,
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "Moody's Investors Service has assigned us an unsecured debt credit rating of Baa2 and the ratings outlook is currently under review. Standard & Poor's has assigned us an unsecured debt credit rating of BBB and a ratings outlook of \"negative.\""
+      }
+    },
+    {
+      "id": "SYY-39",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "JRD 합병은 HSR법 요건을 충족해야 하며 규제당국이 조건을 부과하거나 거래를 지연·저지할 수 있다는 위험을 공시했다.",
+      "event_date": null,
+      "published_date": "2026-08-21",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0000096021-26-000033",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602126000033/syy-20260627.htm",
+        "quote": "The mergers are subject to the requirements of the HSR Act, and regulatory authorities may impose conditions that could have an adverse effect on us following the Transactions or that could delay, prevent or increase the costs associated with completion of the Transactions."
+      }
+    },
+    {
+      "id": "SYY-40",
+      "section": "7_industry",
+      "tier": "optional",
+      "fact": "미 인구조사국 2026년 8월 소매판매 속보치에서 음식서비스·주점(NAICS 722) 매출(계절조정)은 전월 대비 1.2%, 전년 동월 대비 5.8% 증가했다.",
+      "event_date": "2026-08-31",
+      "published_date": "2026-09-16",
+      "source": {
+        "type": "industry",
+        "doc": "U.S. Census Bureau, Advance Monthly Sales for Retail and Food Services, August 2026 (CB26-153)",
+        "url": "https://www2.census.gov/retail/releases/historical/marts/adv2608.pdf",
+        "quote": "722 Food services & drinking places …………. 1.2 5.8 0.5 5.2 2.7 5.3"
+      }
+    }
+  ],
+  "searched_not_found": [
+    {
+      "section": "5_legal",
+      "checked": "10-K Item 3 Legal Proceedings 및 Note 20 Commitments and Contingencies, 3분기 10-Q: FY2026 3분기에 인식 후 4분기에 일부 환입된 'legal matter' 비용은 사안 내용·금액이 공시되지 않아 별도 소송 항목으로 기재하지 않음."
+    },
+    {
+      "section": "4_events",
+      "checked": "조사 창 내 8-K 2.01(인수 완료), 2.05(구조조정), 2.06(손상), 4.01(감사인 교체), 1.05(사이버) 공시 없음 — EDGAR 제출목록(2026-04-14~2026-10-11) 확인. JRD 인수는 2026-10-11 현재 미완료."
+    },
+    {
+      "section": "4_events",
+      "checked": "CFO: Brandon Sewell이 임시 CFO(Interim Chief Financial Officer)로 재직 중이며 조사 창 내 정식 CFO 선임 8-K는 찾지 못함."
+    },
+    {
+      "section": "7_industry",
+      "checked": "BLS CPI 외식(food away from home) 지수는 helper로 원문 확인을 시도하지 않음; Census MARTS 2026년 8월 속보치만 사용(9월 28일 연간개정으로 수치 일부 변경 가능)."
+    }
+  ]
+}

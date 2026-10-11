@@ -1,0 +1,568 @@
+{
+ "company": {
+  "ticker": "CMS",
+  "cik": "0000811156",
+  "name": "CMS Energy Corp"
+ },
+ "cutoff": "2026-10-11",
+ "latest_periodic_report": {
+  "form": "10-Q",
+  "accession": "0000811156-26-000028",
+  "period_end": "2026-06-30",
+  "filed": "2026-07-28"
+ },
+ "choi": [
+  {
+   "target": "operating_income",
+   "status": "value",
+   "value_usd": 754000000,
+   "printed": "754",
+   "printed_scale": "millions",
+   "period_start": "2026-01-01",
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-Q 0000811156-26-000028",
+    "location": "CMS Energy Corporation Consolidated Statements of Income (Unaudited), Six Months Ended June 30 2026",
+    "quote": "Operating Income 264 317 754 811"
+   },
+   "xbrl": {
+    "tag": "us-gaap:OperatingIncomeLoss",
+    "value": 754000000
+   },
+   "note": "CMS Energy 연결 손익계산서(Consumers 별도 표 아님). 상반기 YTD 열."
+  },
+  {
+   "target": "short_term_borrowings",
+   "status": "none_presented",
+   "value_usd": null,
+   "printed": null,
+   "printed_scale": null,
+   "period_start": null,
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-Q 0000811156-26-000028",
+    "location": "CMS Energy Corporation Consolidated Balance Sheets (Unaudited) - Current Liabilities",
+    "quote": "Current Liabilities Current portion of long-term debt and finance leases $ 870 $ 956 Accounts payable 1,223 1,395 Accounts payable – related parties 6 9 Accrued rate refunds — 28 Accrued interest 183 182 Accrued taxes 498 708 Regulatory liabilities 96 85 Other current liabilities 187 185 Total current liabilities 3,063"
+   },
+   "xbrl": null,
+   "note": "CMS 연결 유동부채에 notes payable/단기차입금 행이 없음. Note 4: 'At June 30, 2026, there were no commercial paper notes outstanding under this program.' 및 신용한도 표의 Amount Borrowed가 전부 '—'. (XBRL OtherShortTermBorrowings=1,000,000 태그는 장기미지급금 유동분 $1 million 각주에 잘못 붙은 것으로 판단, 차입금 아님.)"
+  },
+  {
+   "target": "current_long_term_debt_ex_leases",
+   "status": "value",
+   "value_usd": 864000000,
+   "printed": "$864 million",
+   "printed_scale": "millions",
+   "period_start": null,
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-Q 0000811156-26-000028",
+    "location": "Note 6 Financial Instruments - footnote 2 to CMS Energy long-term debt fair value table",
+    "quote": "Includes current portion of long-term debt of $864 million at June 30, 2026 and $950 million at December 31, 2025."
+   },
+   "xbrl": {
+    "tag": "us-gaap:LongTermDebtCurrent",
+    "value": 864000000
+   },
+   "note": "재무상태표 행 'Current portion of long-term debt and finance leases $ 870'은 금융리스 포함 합산이므로 주석의 장기부채 유동분 $864 million 사용."
+  },
+  {
+   "target": "current_finance_leases",
+   "status": "value",
+   "value_usd": 6000000,
+   "printed": null,
+   "printed_scale": "millions",
+   "period_start": null,
+   "period_end": "2026-06-30",
+   "source": {
+    "doc": "10-Q 0000811156-26-000028",
+    "location": "CMS Energy Corporation Consolidated Balance Sheets (Unaudited) - Current Liabilities",
+    "quote": "Current portion of long-term debt and finance leases $ 870 $ 956"
+   },
+   "xbrl": null,
+   "note": "직접 인쇄된 값 없음. 재무상태표 합산행 $870(장기부채+금융리스 유동분) − 주석의 장기부채 유동분 $864 million = $6 million으로 산출(전기말도 956−950=6). 해당 XBRL 태그(FinanceLeaseLiabilityCurrent) 없음."
+  }
+ ],
+ "kim": [
+  {
+   "id": "CMS-01",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2026년 2분기 희석 EPS는 $0.37로 전년 동기 $0.66에서 감소했고, 조정 EPS는 $0.37로 전년 $0.71보다 낮았다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001104659-26-087288",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926087288/tm2621427d1_ex99-1.htm",
+    "quote": "CMS Energy announced today reported earnings per share of $0.37 for the second quarter of 2026, compared to $0.66 per share for 2025. The company’s adjusted earnings per share for the second quarter were $0.37, compared to $0.71 per share for 2025."
+   }
+  },
+  {
+   "id": "CMS-02",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "2026년 상반기 누적 보고 EPS는 $1.47(전년 $1.67), 조정 EPS는 $1.50(전년 $1.73)이다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001104659-26-087288",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926087288/tm2621427d1_ex99-1.htm",
+    "quote": "For the first six months of the year, the company reported $1.47 per share compared to $1.67 per share for the same timeframe in 2025. On an adjusted earnings per share basis year to date, the company reported $1.50 per share in 2026 compared to $1.73 per share in 2025."
+   }
+  },
+  {
+   "id": "CMS-03",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "CMS Energy 연결 영업수익(Operating Revenue)은 2분기 $1,829백만(전년 $1,838백만), 상반기 $4,559백만(전년 $4,285백만)이다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Operating Revenue $ 1,829 $ 1,838 $ 4,559 $ 4,285"
+   }
+  },
+  {
+   "id": "CMS-04",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "CMS Energy 연결 영업이익은 2분기 264(전년 317), 상반기 754(전년 811)(백만 달러)로 감소했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Operating Income 264 317 754 811"
+   }
+  },
+  {
+   "id": "CMS-05",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "보통주주 귀속 순이익은 2분기 $117백만(전년 $198백만), 상반기 $455백만(전년 $500백만)이다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Net Income Attributable to CMS Energy 120 201 460 505 Preferred Stock Dividends 3 3 5 5 Net Income Available to Common Stockholders $ 117 $ 198 $ 455 $ 500"
+   }
+  },
+  {
+   "id": "CMS-06",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "회사는 상반기 전기·가스 요금 인상과 NorthStar Clean Energy 이익 증가가 전년 부채 소각이익 부재, 복구비용 증가, 감가상각·재산세 증가로 상쇄됐다고 설명했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "During the six months ended June 30, 2026, electric and gas rate increases and higher earnings at NorthStar Clean Energy were offset by the absence of gains on extinguishment of debt, higher service restoration costs, and increased depreciation and property taxes"
+   }
+  },
+  {
+   "id": "CMS-07",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "Corporate interest and other 부문에서 전년 부채 소각이익(일회성) 부재로 2분기·상반기 각각 $(72)백만의 이익 감소가 발생했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Absence of gains on extinguishment of debt $ (72) $ (72)"
+   }
+  },
+  {
+   "id": "CMS-08",
+   "section": "1_results",
+   "tier": "required",
+   "fact": "유틸리티 서비스 복구비용 증가가 순이익을 2분기 (40), 상반기 (70)(백만 달러) 감소시켰다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Higher service restoration costs (40) (70)"
+   }
+  },
+  {
+   "id": "CMS-09",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "상반기 영업활동 순현금유입은 1,327(전년 1,414)(백만 달러)로 유입을 유지했으나 감소했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Net cash provided by operating activities 1,327 1,414"
+   }
+  },
+  {
+   "id": "CMS-10",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "2026년 6월 30일 CMS Energy 연결 현금 및 현금성자산은 $345 million(제한현금 $104 million 포함)이다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "At June 30, 2026, CMS Energy had $345 million of consolidated cash and cash equivalents, which included $104 million of restricted cash and cash equivalents."
+   }
+  },
+  {
+   "id": "CMS-11",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "상반기 부채 발행 수입은 1,167(전년 2,449), 부채 상환은 (883)(전년 (841))(백만 달러)이었다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Proceeds from issuance of debt 1,167 2,449 Retirement of debt (883) (841)"
+   }
+  },
+  {
+   "id": "CMS-12",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "자회사 Consumers Energy는 2026년 5월 5일 5.125% First Mortgage Bonds due 2036 $850,000,000를 발행했다.",
+   "event_date": "2026-05-05",
+   "published_date": "2026-05-05",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001104659-26-055369",
+    "url": "https://www.sec.gov/Archives/edgar/data/201533/000110465926055369/tm2612946d6_8k.htm",
+    "quote": "Company (\"Consumers\") issued and sold $850,000,000 principal amount of its 5.125% First Mortgage Bonds due 2036"
+   }
+  },
+  {
+   "id": "CMS-13",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "Consumers Energy는 2026년 8월 4일 4.900% First Mortgage Bonds due 2031 $450,000,000와 6.100% First Mortgage Bonds due 2056 $450,000,000를 발행했다.",
+   "event_date": "2026-08-04",
+   "published_date": "2026-08-04",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001104659-26-090132",
+    "url": "https://www.sec.gov/Archives/edgar/data/201533/000110465926090132/tm2621538d4_8k.htm",
+    "quote": "issued and sold $450,000,000 principal amount of its 4.900% First Mortgage Bonds due 2031 and $450,000,000 principal amount of its 6.100% First Mortgage Bonds due 2056"
+   }
+  },
+  {
+   "id": "CMS-14",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "CMS Energy는 2026년 5월 13일 최대 $3,000,000,000 규모의 보통주 at-the-market/선도매도 지분 발행 프로그램을 개시했다.",
+   "event_date": "2026-05-13",
+   "published_date": "2026-05-13",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001104659-26-060321",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926060321/tm2614454d2_8k.htm",
+    "quote": "offering program under which shares (the “Shares”) of the common stock of CMS Energy Corporation (“CMS Energy”) having an aggregate sales price of up to $3,000,000,000 may be offered and sold from time to time"
+   }
+  },
+  {
+   "id": "CMS-15",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "상반기 중 2023년 지분 프로그램의 잔여 선도매도 계약을 약 6.5 million주 발행으로 결제해 순수입 $495 million을 확보했다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "CMS Energy settled all of the remaining forward sale contracts under this program by issuing approximately 6.5 million shares at a weighted average price of $75.80 per share, resulting in net proceeds of $495 million."
+   }
+  },
+  {
+   "id": "CMS-16",
+   "section": "2_cash_debt",
+   "tier": "required",
+   "fact": "CMS Energy 모회사는 2026년 5월 만기 3.000% 선순위채 $300(백만)을 상환했다.",
+   "event_date": null,
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "Senior notes $ 300 3.000 May 2026 May 2026"
+   }
+  },
+  {
+   "id": "CMS-17",
+   "section": "3_guidance",
+   "tier": "required",
+   "fact": "2026년 7월 28일 회사는 2026년 조정 EPS 가이던스 $3.83~$3.90을 재확인했다(직전 4월 가이던스와 동일).",
+   "event_date": "2026-07-28",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001104659-26-087288",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926087288/tm2621427d1_ex99-1.htm",
+    "quote": "CMS Energy reaffirmed its 2026 adjusted earnings guidance of $3.83 to $3.90 per share"
+   }
+  },
+  {
+   "id": "CMS-18",
+   "section": "3_guidance",
+   "tier": "required",
+   "fact": "2026년 7월 28일 회사는 2027년 조정 EPS 가이던스 $4.08~$4.17을 처음 제시했다.",
+   "event_date": "2026-07-28",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001104659-26-087288",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926087288/tm2621427d1_ex99-1.htm",
+    "quote": "CMS Energy is introducing 2027 earnings guidance of $4.08 to $4.17."
+   }
+  },
+  {
+   "id": "CMS-19",
+   "section": "3_guidance",
+   "tier": "required",
+   "fact": "직전(2026년 4월 28일 1분기 발표) 가이던스는 2026년 조정 EPS $3.83~$3.90, 장기 조정 EPS 성장률 6~8%(상단 지향)였다.",
+   "event_date": "2026-04-28",
+   "published_date": "2026-04-28",
+   "source": {
+    "type": "sec",
+    "doc": "8-K EX-99.1 0001104659-26-049718",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926049718/tm2612873d1_ex99-1.htm",
+    "quote": "CMS Energy reaffirmed its 2026 adjusted earnings guidance of $3.83 to $3.90 per share (*See below for important information about non-GAAP measures) and long-term adjusted EPS growth of 6 to 8 percent, with continued confidence toward the high end."
+   }
+  },
+  {
+   "id": "CMS-20",
+   "section": "4_events",
+   "tier": "required",
+   "fact": "Rejji P. Hayes가 2026년 6월 3일부로 CMS Energy·Consumers Energy EVP 겸 CFO에서 은퇴했다.",
+   "event_date": "2026-06-03",
+   "published_date": "2026-06-03",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001104659-26-070037",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926070037/tm2616692d1_8k.htm",
+    "quote": "announced that Rejji P. Hayes has retired from his positions as CMS Energy and Consumers Energy Company (“Consumers Energy”) executive vice president and chief financial officer, effective June 3, 2026."
+   }
+  },
+  {
+   "id": "CMS-21",
+   "section": "4_events",
+   "tier": "required",
+   "fact": "Srikanth (Sri) Maddipati(43세)가 2026년 6월 3일부로 후임 EVP 겸 CFO로 선임됐다.",
+   "event_date": "2026-06-03",
+   "published_date": "2026-06-03",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001104659-26-070037",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926070037/tm2616692d1_8k.htm",
+    "quote": "Srikanth (Sri) Maddipati, 43, has been appointed to succeed Hayes as CMS Energy and Consumers Energy executive vice president and chief financial officer, effective June 3, 2026."
+   }
+  },
+  {
+   "id": "CMS-22",
+   "section": "4_events",
+   "tier": "required",
+   "fact": "CMS Energy 이사회는 2026년 7월 22일 NorthStar Clean Energy 보유 일부 재생에너지 프로젝트 매각과 비유틸리티 재생에너지 개발 철수 계획을 승인했다.",
+   "event_date": "2026-07-22",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "On July 22, 2026, the CMS Energy Board of Directors approved a plan to divest certain renewable projects owned by NorthStar Clean Energy and to exit non-utility renewables development."
+   }
+  },
+  {
+   "id": "CMS-23",
+   "section": "4_events",
+   "tier": "optional",
+   "fact": "2026년 5월 8일 주총에서 보통주 수권주식수를 350 Million주에서 700 Million주로 늘리는 정관 변경안이 승인됐다.",
+   "event_date": "2026-05-08",
+   "published_date": "2026-05-13",
+   "source": {
+    "type": "sec",
+    "doc": "8-K 0001104659-26-060230",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000110465926060230/tm2614313d1_8k.htm",
+    "quote": "Proposal to amend the CMS Energy Restated Articles of Incorporation Increasing the Number of Authorized Shares of CMS Common Stock from 350 Million Shares to 700 Million Shares was approved"
+   }
+  },
+  {
+   "id": "CMS-24",
+   "section": "4_events",
+   "tier": "optional",
+   "fact": "Consumers Energy는 2026년 9월 3일 20년 Energy Supply Plan(IRP)을 미시간 공공서비스위원회(MPSC)에 제출했다.",
+   "event_date": "2026-09-03",
+   "published_date": "2026-09-03",
+   "source": {
+    "type": "company_ir",
+    "doc": "CMS Energy news release: Consumers Energy Plan Will Power Michigan's Next Generation with Reliable and Affordable Energy (2026-09-03)",
+    "url": "https://www.cmsenergy.com/investor-relations/news-releases/news-release-details/2026/Consumers-Energy-Plan-Will-Power-Michigans-Next-Generation-with-Reliable-and-Affordable-Energy/default.aspx",
+    "quote": "The full Energy Supply Plan and supporting documents are being filed with the Michigan Public Service Commission today and are subject to approval in the next year."
+   }
+  },
+  {
+   "id": "CMS-25",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "Ludington 정비계약 분쟁에서 2025년 12월 배심원은 TAES의 계약위반을 인정해 $383 million 손해배상을 평결했고, 별도로 $11 million 지연손해금이 합의됐다(사후 절차·항소 가능).",
+   "event_date": null,
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "The jury found that TAES breached the parties’ contract and awarded damages of $383 million. The parties separately stipulated to $11 million in additional liquidated damages for late performance by TAES."
+   }
+  },
+  {
+   "id": "CMS-26",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "J.H. Campbell 비상명령 준수의 순재무영향은 2026년 6월 30일까지 MISO 수익 $239 million 차감 후 $259 million이며, FERC를 통한 비용회수를 추진 중이다.",
+   "event_date": "2026-06-30",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "From the date the first emergency order became effective through June 30, 2026, the net financial impact of complying with the emergency orders was $259 million after applying MISO revenues of $239 million."
+   }
+  },
+  {
+   "id": "CMS-27",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "미 에너지부(DOE)는 2026년 8월 14일 6번째 202(c) 명령으로 J.H. Campbell 석탄발전소 가동을 2026년 11월 14일까지 연장했고, 미시간 법무장관은 재심리 청구를 예고했다.",
+   "event_date": "2026-08-14",
+   "published_date": "2026-08-17",
+   "source": {
+    "type": "regulator",
+    "doc": "Michigan Department of Attorney General press release (2026-08-17): AG Nessel to Challenge 6th Unlawful DOE Order Forcing Operation of J.H. Campbell Plant",
+    "url": "https://www.michigan.gov/ag/news/press-releases/2026/08/17/ag-nessel-to-challenge-6th-unlawful-doe-order-forcing-operation-of-jh-campbell-plant",
+    "quote": "On Friday, DOE issued the order under Federal Power Act Section 202(c) forcing Consumers Energy to run the J.H. Campbell coal plant until November 14, 2026"
+   }
+  },
+  {
+   "id": "CMS-28",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "2026년 9월 11일 D.C. 연방항소법원은 J.H. Campbell 가동을 강제한 DOE의 첫 번째(2025년 5월) 명령을 무효화(vacate)했다.",
+   "event_date": "2026-09-11",
+   "published_date": "2026-09-11",
+   "source": {
+    "type": "regulator",
+    "doc": "Michigan Department of Attorney General press release (2026-09-11): Federal Appeals Court Vacates First DOE Order Forcing Operation of J.H. Campbell Coal Plant",
+    "url": "https://www.michigan.gov/ag/news/press-releases/2026/09/11/federal-appeals-court-vacates-first-doe-order-forcing-operation-of-jh-campbell-coal-plant",
+    "quote": "Today, the United States Court of Appeals for the District of Columbia Circuit vacated the U.S. Department of Energy‘s (DOE) first arbitrary and illegal order (PDF) forcing the continued operation of Consumers Energy's J.H. Campbell coal-fired power plant in West Olive, Michigan."
+   }
+  },
+  {
+   "id": "CMS-29",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "Consumers는 2026년 6월 MPSC에 $481 million(연 $456 million 인상 + $25 million 추가요금) 규모의 2026년 전기요금 인상을 신청했다.",
+   "event_date": "2026-06-02",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "In June 2026, Consumers filed an application with the MPSC seeking a rate increase of $481 million made up of two components."
+   }
+  },
+  {
+   "id": "CMS-30",
+   "section": "5_legal",
+   "tier": "required",
+   "fact": "2025년 가스요금 사건에서 Consumers는 2026년 6월 요청액을 $232 million으로 수정했으며 MPSC 최종명령은 2026년 10월까지 나와야 한다.",
+   "event_date": "2026-06-18",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "In June 2026, Consumers revised its requested increase to $232 million. The MPSC must issue a final order in this case before or in October 2026."
+   }
+  },
+  {
+   "id": "CMS-31",
+   "section": "6_risks",
+   "tier": "optional",
+   "fact": "NorthStar 재생에너지 자산 매각 예정 분류 시 예상 매각대금이 장부가에 못 미치면 2026년 3분기에 중대한 손상차손을 인식할 수 있다.",
+   "event_date": "2026-07-28",
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "CMS Energy could record a material impairment charge in the third quarter of 2026 if expected sale proceeds are insufficient to recover the carrying value of the assets."
+   }
+  },
+  {
+   "id": "CMS-32",
+   "section": "6_risks",
+   "tier": "optional",
+   "fact": "Consumers는 2026년 3월 폭풍 복구 관련 운영비 약 $57 million을 규제자산으로 이연 승인해 달라고 2026년 6월 MPSC에 신청했다.",
+   "event_date": null,
+   "published_date": "2026-07-28",
+   "source": {
+    "type": "sec",
+    "doc": "10-Q 0000811156-26-000028",
+    "url": "https://www.sec.gov/Archives/edgar/data/811156/000081115626000028/cms-20260630.htm",
+    "quote": "requesting approval to defer, as a regulatory asset, operating and maintenance expenses associated with the storms, estimated to be 62 Table of Contents $57 million."
+   }
+  },
+  {
+   "id": "CMS-33",
+   "section": "7_industry",
+   "tier": "optional",
+   "fact": "EIA는 2026년 3분기 미국 전력소비가 전년 동기 대비 4% 증가했고 주거용(6%)·상업용(5%) 증가가 가장 컸다고 밝혔다.",
+   "event_date": "2026-09-30",
+   "published_date": "2026-10-06",
+   "source": {
+    "type": "industry",
+    "doc": "U.S. EIA Short-Term Energy Outlook (October 6, 2026) - Electricity, coal, and renewables",
+    "url": "https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php",
+    "quote": "Overall, electricity consumption in 3Q26 increased by 4% across the country compared with the same quarter last year. The largest increases came from the residential (6%) and commercial (5%) sectors."
+   }
+  }
+ ],
+ "searched_not_found": [
+  {
+   "section": "3_guidance",
+   "checked": "2026-07-28 이후 2026-10-11까지 CMS(811156)·Consumers(201533) EDGAR 8-K 목록과 웹 검색에서 가이던스 변경 공시 없음(6/3 8-K 7.01은 4/28 가이던스 재확인)."
+  },
+  {
+   "section": "4_events",
+   "checked": "조사 창 내 1.01/2.01/2.03/2.05/4.01/1.05 등 8-K 없음; NorthStar 매각의 구체적 매수자·계약 체결 공시는 2026-10-11까지 찾지 못함(EDGAR, 웹 검색)."
+  },
+  {
+   "section": "5_legal",
+   "checked": "2025 가스요금 사건(U-21981) MPSC 최종명령: 2026-10-11 이전 발표 여부를 EDGAR·IR 페이지·웹 검색으로 확인했으나 찾지 못함(회사 자료상 10월 16일까지 예정)."
+  },
+  {
+   "section": "choi",
+   "checked": "current_finance_leases: 10-Q에 유동 금융리스 부채 금액이 별도 인쇄되지 않음(리스 주석 없음), XBRL FinanceLeaseLiabilityCurrent 없음 → 합산행에서 차감 산출."
+  }
+ ]
+}

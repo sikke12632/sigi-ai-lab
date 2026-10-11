@@ -102,7 +102,7 @@
       "id": "WYNN-02",
       "section": "1_results",
       "tier": "required",
-      "fact": "2026년 2분기 Wynn Resorts 귀속 순이익은 $140.1 million으로 전년 동기 $66.2 million에서 증가했고, 희석 주당순이익은 $1.32(전년 $0.64)였다.",
+      "fact": "2026년 2분기 Wynn Resorts 귀속 순이익은 $140.1 million으로 전년 동기 $66.2 million에서 증가했고, 2분기 희석 주당순이익은 $1.32였다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-04",
       "source": {
@@ -270,7 +270,7 @@
       "id": "WYNN-14",
       "section": "2_cash_debt",
       "tier": "required",
-      "fact": "WML 전환사채 순장부가액과 전환권 파생상품이 2026-06-30 기준 유동성 장기부채로 분류되어, 유동성 장기부채가 1,428,965(천 달러, 2025년 말 9,410)로 늘었다.",
+      "fact": "WML 전환사채 순장부가액과 전환권 파생상품은 2026-06-30 기준 유동성 장기부채(Current portion of long-term debt)에 포함되었다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-06",
       "source": {
@@ -284,7 +284,7 @@
       "id": "WYNN-15",
       "section": "2_cash_debt",
       "tier": "required",
-      "fact": "2026년 2분기 자사주 741,098주를 평균 $101.20에 총 $75.0 million에 매입했고, 6월 30일 기준 잔여 매입한도는 $326.1 million이다.",
+      "fact": "2026년 2분기 자사주 741,098주를 평균 $101.20에 총 $75.0 million에 매입했다.",
       "event_date": "2026-06-30",
       "published_date": "2026-08-04",
       "source": {
@@ -298,20 +298,6 @@
       "id": "WYNN-16",
       "section": "2_cash_debt",
       "tier": "optional",
-      "fact": "2026-06-16 WML이 주당 HK$0.223(총 약 $149.8 million) 현금배당을 지급했고 회사 몫은 $106.7 million이었다.",
-      "event_date": "2026-06-16",
-      "published_date": "2026-08-06",
-      "source": {
-        "type": "sec",
-        "doc": "10-Q 0001174922-26-000055",
-        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
-        "quote": "On June 16, 2026, WML paid a cash dividend of HK$0.223 per share on its common stock for a total U.S. dollar equivalent of approximately $149.8 million in respect of the year ended December 31, 2025. Our share of this dividend was $106.7 million."
-      }
-    },
-    {
-      "id": "WYNN-17",
-      "section": "2_cash_debt",
-      "tier": "optional",
       "fact": "이사회는 2026-08-04 주당 $0.25 현금배당을 결의했다(8월 28일 지급, 기준일 8월 14일).",
       "event_date": "2026-08-04",
       "published_date": "2026-08-04",
@@ -320,6 +306,20 @@
         "doc": "8-K 0001174922-26-000051",
         "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/wynn-20260804.htm",
         "quote": "On August 4, 2026, the Company announced that its Board of Directors declared a cash dividend of $0.25 per share, payable on August 28, 2026 to stockholders of record as of August 14, 2026."
+      }
+    },
+    {
+      "id": "WYNN-17",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026-09-22 발행한 $900 million 2035년 만기 선순위채 순조달액과 보유현금은 Wynn Las Vegas의 5.250% 2027년 만기 선순위채(2027 WLV Notes) 전액 상환과 관련 비용 지급에 사용될 예정이다(차환).",
+      "event_date": "2026-09-22",
+      "published_date": "2026-09-22",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001174922-26-000069",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000069/wynn-20260922.htm",
+        "quote": "The net proceeds from this offering, together with cash on hand, will be used to (i) redeem in full Wynn Las Vegas, LLC and Wynn Las Vegas Capital Corp.’s outstanding 5.250% Senior Notes due 2027 (the \"2027 WLV Notes\")"
       }
     },
     {
@@ -410,7 +410,7 @@
       "id": "WYNN-24",
       "section": "4_events",
       "tier": "required",
-      "fact": "2026-07-21(홍콩시간 7월 22일) 마카오 정부가 Palo와 Wynn Macau의 개정 코타이 토지 양허계약을 관보에 게재했으며, 이에 따라 Wynn Palace에 5성급 호텔·극장·이벤트센터 증축이 허용되고 추가 토지 프리미엄 MOP652.3 million(약 $80.8 million)을 일시 납부해야 한다.",
+      "fact": "2026-07-21(홍콩시간 7월 22일) 관보에 게재된 개정 코타이 토지 양허계약(Wynn Palace 증축 허용)에 따라 Palo는 추가 토지 프리미엄 MOP652.3 million(약 $80.8 million)을 일시 납부해야 한다.",
       "event_date": "2026-07-21",
       "published_date": "2026-07-22",
       "source": {
@@ -424,35 +424,35 @@
       "id": "WYNN-25",
       "section": "4_events",
       "tier": "required",
-      "fact": "2026-09-10 회사는 Wynn Resorts Finance가 $900 million 규모 2035년 만기 선순위채 사모 발행을 추진하며, 순조달액과 보유현금으로 Wynn Las Vegas의 5.250% 2027년 만기 선순위채를 전액 상환할 계획이라고 발표했다.",
+      "fact": "2026-09-10 회사는 Wynn Resorts Finance가 $900 million 규모 2035년 만기 선순위채 사모 발행 계획을 발표했으며, 순조달액은 보유현금과 함께 자회사 Wynn Las Vegas에 출자·대여할 예정이라고 밝혔다.",
       "event_date": "2026-09-10",
       "published_date": "2026-09-10",
       "source": {
         "type": "sec",
-        "doc": "8-K EX-99.1 0001174922-26-000062",
-        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000062/ex991-wrf900mseniornotesla.htm",
-        "quote": "Wynn Resorts Finance plans to contribute and/or lend the net proceeds from the offering, together with cash on hand, to its subsidiary, Wynn Las Vegas, who will use the amounts to (i) redeem in full the 2027 WLV Notes"
+        "doc": "8-K 0001174922-26-000062",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000062/wynn-20260910.htm",
+        "quote": "plan to offer $900 million aggregate principal amount of Senior Notes due 2035 (the “Notes”). Wynn Resorts Finance intends to contribute and/or lend the net proceeds from this offering, together with cash on hand, to its subsidiary, Wynn Las Vegas, LLC"
       }
     },
     {
       "id": "WYNN-26",
       "section": "4_events",
       "tier": "required",
-      "fact": "2026-09-10 Wynn Resorts Finance의 $900 million 6.875% 2035년 만기 선순위채 가격이 결정되었다.",
+      "fact": "2026-09-10 Wynn Resorts Finance의 $900 million 6.875% 2035년 만기 선순위채 사모 발행 가격이 결정되었고, 2026-09-22경 종결 예정이라고 발표했다.",
       "event_date": "2026-09-10",
       "published_date": "2026-09-10",
       "source": {
         "type": "sec",
         "doc": "8-K EX-99.1 0001174922-26-000066",
         "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000066/ex991-wrf900mseniornotespr.htm",
-        "quote": "announced today the pricing by Wynn Resorts Finance, LLC (“Wynn Resorts Finance”) and its subsidiary Wynn Resorts Capital Corp."
+        "quote": "of $900 million aggregate principal amount of 6.875% Senior Notes due 2035 (the “Notes”) in a private offering. The offering is expected to close on or about September 22, 2026"
       }
     },
     {
       "id": "WYNN-27",
       "section": "4_events",
       "tier": "required",
-      "fact": "2026-09-22 WRF와 Wynn Resorts Capital이 $900 million 6.875% 선순위채(2035-03-15 만기)를 indenture에 따라 발행했다.",
+      "fact": "2026-09-22 WRF와 Wynn Resorts Capital이 $900 million 규모 6.875% 2035년 만기 선순위채를 발행했다.",
       "event_date": "2026-09-22",
       "published_date": "2026-09-22",
       "source": {
@@ -466,14 +466,14 @@
       "id": "WYNN-28",
       "section": "4_events",
       "tier": "optional",
-      "fact": "2026-05-06 정기주총에서 Class III 이사 3명(Richard J. Byrne, Patricia Mulroy, Philip G. Satre) 선임, EY 감사인 선임 비준, 2014 Omnibus Incentive Plan 300만 주 증액 등이 승인되었다.",
+      "fact": "2026-05-06 정기주총에서 2014 Omnibus Incentive Plan 수권주식 3,000,000주 증액 개정안이 찬성 72,621,437표로 통과되었다.",
       "event_date": "2026-05-06",
       "published_date": "2026-05-08",
       "source": {
         "type": "sec",
         "doc": "8-K 0001174922-26-000037",
         "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000037/wynn-20260506.htm",
-        "quote": "To approve an amendment and restatement of the Company's amended and restated 2014 Omnibus Incentive Plan to increase the authorized shares by 3,000,000 shares:"
+        "quote": "2014 Omnibus Incentive Plan to increase the authorized shares by 3,000,000 shares: Votes For Votes Against Abstain Broker Non-Votes 72,621,437 640,398 77,745 21,491,023"
       }
     },
     {
@@ -536,14 +536,14 @@
       "id": "WYNN-33",
       "section": "6_risks",
       "tier": "optional",
-      "fact": "회사는 라스알카이마 정부와 함께 약 $2.4 billion Al Marjan 대출에 대한 완공보증을 제공했으며, 보증은 전액 상환 또는 늦어도 2028-06-30까지의 실질 완공 시 종료된다.",
+      "fact": "회사는 직접 차입자가 아니지만 라스알카이마 정부와 함께 Al Marjan Facility(약 $2.4 billion 지연인출 담보부 대출) 대주단을 위한 완공보증 계약을 체결했다.",
       "event_date": null,
       "published_date": "2026-08-06",
       "source": {
         "type": "sec",
         "doc": "10-Q 0001174922-26-000055",
         "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
-        "quote": "the date of practical completion of the project (as provided in the Al Marjan Facility Agreement), taking place no later than June 30, 2028."
+        "quote": "The Company is not a party to the Al Marjan Facility agreement, but as a condition precedent to the Al Marjan Facility being made available to the Borrower, the Company and the government of Ras Al Khaimah entered into a completion guarantee agreement"
       }
     },
     {
