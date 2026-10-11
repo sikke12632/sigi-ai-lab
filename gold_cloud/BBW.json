@@ -1,0 +1,566 @@
+{
+  "company": {
+    "ticker": "BBW",
+    "cik": "0001113809",
+    "name": "Build-A-Bear Workshop Inc"
+  },
+  "cutoff": "2026-10-11",
+  "latest_periodic_report": {
+    "form": "10-Q",
+    "accession": "0001437749-26-030081",
+    "period_end": "2026-08-01",
+    "filed": "2026-09-10"
+  },
+  "choi": [
+    {
+      "target": "operating_income",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": "thousands",
+      "period_start": "2026-02-01",
+      "period_end": "2026-08-01",
+      "source": {
+        "doc": "10-Q 0001437749-26-030081",
+        "location": "Condensed Consolidated Statements of Operations and Comprehensive Income (Twenty-six weeks ended August 1, 2026)",
+        "quote": "Consolidated gross profit 62,489 71,511 142,361 144,498 Selling, general and administrative expense 51,410 56,399 107,536 109,955 Interest income, net (552 ) (206 ) (686 ) (406 ) Income before income taxes 11,631 15,318 35,511 34,949"
+      },
+      "xbrl": null,
+      "note": "손익계산서에 영업이익(Operating income) 소계 행이 없고 us-gaap:OperatingIncomeLoss XBRL 사실도 없음(companyfacts 조회 결과 없음). 표시된 행으로 계산하면 26주 누적 매출총이익 142,361 - SG&A 107,536 = 34,825(천달러)이나 인쇄된 값이 아니므로 value로 기록하지 않음. 참고: 세전이익(IncomeLossFromContinuingOperationsBeforeIncomeTaxes...) 35,511천달러는 순이자수익 686천달러 포함. YTD 기간은 XBRL 컨텍스트 2026-02-01~2026-08-01."
+    },
+    {
+      "target": "short_term_borrowings",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-08-01",
+      "source": {
+        "doc": "10-Q 0001437749-26-030081",
+        "location": "MD&A — Liquidity and Capital Resources (PNC revolving credit facility)",
+        "quote": "As of August 1, 2026, the Company had approximately $39.5 million of available borrowing base, net of a $0.5 million outstanding letter of credit, and no amounts were outstanding under the agreement as of the end of the quarter."
+      },
+      "xbrl": null,
+      "note": "유동부채 목록(Accounts payable, Accrued expenses, Operating lease liability short term, Gift cards and customer deposits, Deferred revenue and other)에 차입금 계정 없음. 회전신용(PNC, 한도 $40.0 million) 분기말 미인출. ShortTermBorrowings/LineOfCredit XBRL 사실 없음."
+    },
+    {
+      "target": "current_long_term_debt_ex_leases",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-08-01",
+      "source": {
+        "doc": "10-Q 0001437749-26-030081",
+        "location": "Condensed Consolidated Balance Sheets — Current liabilities",
+        "quote": "Current liabilities: Accounts payable $ 16,017 $ 15,318 $ 16,659 Accrued expenses 14,731 26,104 19,110 Operating lease liability short term 28,138 28,651 26,996 Gift cards and customer deposits 13,789 15,289 14,343 Deferred revenue and other 3,925 5,264 3,964 Total current liabilities 76,600 90,626 81,072"
+      },
+      "xbrl": null,
+      "note": "유동부채 목록에 유동성 장기부채 계정이 없고 장기부채 자체가 재무상태표에 없음(비유동부채는 운용리스부채와 기타장기부채뿐). 신용약정 미인출('no amounts were outstanding under the agreement'). LongTermDebtCurrent XBRL 사실 없음."
+    },
+    {
+      "target": "current_finance_leases",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-08-01",
+      "source": {
+        "doc": "10-Q 0001437749-26-030081",
+        "location": "Condensed Consolidated Balance Sheets — Current liabilities",
+        "quote": "Current liabilities: Accounts payable $ 16,017 $ 15,318 $ 16,659 Accrued expenses 14,731 26,104 19,110 Operating lease liability short term 28,138 28,651 26,996 Gift cards and customer deposits 13,789 15,289 14,343 Deferred revenue and other 3,925 5,264 3,964 Total current liabilities 76,600 90,626 81,072"
+      },
+      "xbrl": null,
+      "note": "유동부채의 리스부채는 'Operating lease liability short term' 28,138천달러(운용리스)뿐이며 금융리스가 아님. 리스 주석(Note 3)의 만기표·비용표도 운용리스만 표시('Operating Leases'), MD&A: 'all are operated under leases classified as operating leases'. FinanceLeaseLiabilityCurrent XBRL 사실 없음."
+    }
+  ],
+  "kim": [
+    {
+      "id": "BBW-01",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026 회계연도 2분기(13주, 2026-08-01 종료) 총매출은 $115.3 million으로 전년 동기 대비 7.2% 감소했다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Total revenues were $115.3 million and decreased 7.2%"
+      }
+    },
+    {
+      "id": "BBW-02",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2분기 세전이익은 $11.6 million(매출 대비 10.1%)으로 전년 동기 $15.3 million(12.3%)에서 감소했다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Pre-tax income was $11.6 million, or 10.1% of total revenues, compared to $15.3 million, or 12.3% of total revenues."
+      }
+    },
+    {
+      "id": "BBW-03",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "GAAP 순이익은 2분기 $8,760천(전년 $12,367천), 26주 누적 $27,059천(전년 $27,686천)이다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "Net income $ 8,760 $ 12,367 $ 27,059 $ 27,686"
+      }
+    },
+    {
+      "id": "BBW-04",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "회사는 2분기 소매 매출총이익률이 360bp 하락한 원인으로 점포 임차비용 부담(occupancy cost deleverage)과 판촉 증가를 들었다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "The retail gross margin rate decreased 360 basis points compared to the prior year primarily due to occupancy cost deleverage and increased promotional activity."
+      }
+    },
+    {
+      "id": "BBW-05",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2분기 순소매매출 감소는 기존점 매출 감소와 이커머스 수요 감소 때문이며(신규점 매출로 일부 상쇄), 연결 이커머스 수요는 15.6% 감소했다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Consolidated e-commerce demand (online orders fulfilled from either the Company’s warehouses or its stores) decreased 15.6%"
+      }
+    },
+    {
+      "id": "BBW-06",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "상반기(26주) 총매출은 $240.6 million으로 4.8% 감소했다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Total revenues were $240.6 million and decreased 4.8%."
+      }
+    },
+    {
+      "id": "BBW-07",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "상반기 세전이익은 $35.5 million(매출 대비 14.8%)으로 전년 $34.9 million(13.8%)보다 늘었으나, 전기 관세 환급 $7 million을 제외한 조정 세전이익은 $28.5 million(11.9%)이다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Excluding the $7 million tariff refund related to prior fiscal year costs, adjusted pre-tax income was $28.5 million, or 11.9% of total revenues."
+      }
+    },
+    {
+      "id": "BBW-08",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "일회성 항목: 1분기에 IEEPA 관세 관련 대법원 판결에 따라 약 $13.2 million의 기납부 관세 환급 권리를 인식하고, 소매 매출원가에서 $10.4 million의 이익(전년도 비용 관련 약 $7.0 million 포함)을 인식했다.",
+      "event_date": "2026-05-02",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "the Company determined that it was entitled to recover approximately $13.2 million of previously paid tariffs. The Company recorded the related receivable, recognized a $10.4 million benefit in cost of merchandise sold-retail, including approximately $7.0 million related to prior fiscal year costs"
+      }
+    },
+    {
+      "id": "BBW-09",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "26주 누적 영업활동 현금흐름은 $26,146천으로 유입이지만 전년 동기($32,017천) 대비 $5.9 million 감소했으며, 원인은 운전자본 변동이다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "Cash provided by operating activities decreased $5.9 million for the twenty-six weeks ended August 1, 2026, as compared to the twenty-six weeks ended August 2, 2025. The decrease in cash from operating activities was driven by changes in working capital balances."
+      }
+    },
+    {
+      "id": "BBW-10",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2분기말 현금및현금성자산은 $14.0 million으로 전년 동기 $39.1 million 대비 $25.1 million(64.2%) 감소했으며, 주로 자사주 매입과 설비투자 시점 때문이다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "At the end of the second quarter, cash and cash equivalents totaled $14.0 million, a decrease of $25.1 million, or 64.2%, from $39.1 million at the end of the second quarter last year, primarily driven by share repurchases and the timing of capital expenditures."
+      }
+    },
+    {
+      "id": "BBW-11",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "PNC 회전신용약정(한도 최대 $40.0 million)에서 분기말 차입 잔액은 없고, 신용장 $0.5 million을 뺀 가용 차입한도는 약 $39.5 million이다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "As of August 1, 2026, the Company had approximately $39.5 million of available borrowing base, net of a $0.5 million outstanding letter of credit, and no amounts were outstanding under the agreement as of the end of the quarter."
+      }
+    },
+    {
+      "id": "BBW-12",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "상반기에 $17.0 million으로 자사주 403,236주를 매입했고, 분기말 이후 2026-09-08까지 $4.2 million으로 129,194주를 추가 매입해 2024년 9월 프로그램 잔여 한도는 $40.5 million이다.",
+      "event_date": "2026-09-08",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "Between the end of the second fiscal quarter of 2026 and September 8, 2026, the Company utilized an additional $4.2 million in cash to repurchase 129,194 shares under the September 2024 Stock Repurchase Program, leaving an aggregate of $40.5 million available for future repurchases under that plan."
+      }
+    },
+    {
+      "id": "BBW-13",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "상반기 설비투자는 $15.4 million(IT 프로젝트·신규 점포)이며, 2026 회계연도 설비투자는 약 $25 million으로 예상한다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "Capital spending for the twenty-six weeks ended August 1, 2026 totaled $15.4 million for information technology projects and new store openings, and we expect to spend approximately $25 million on capital expenditures in fiscal 2026."
+      }
+    },
+    {
+      "id": "BBW-14",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "현재 전망(2분기 발표): 2026 회계연도 총매출 $500 million~$525 million으로 하향.",
+      "event_date": "2026-08-27",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Total revenues of $500 million to $525 million"
+      }
+    },
+    {
+      "id": "BBW-15",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "직전 전망(1분기 발표): 2026 회계연도 총매출 $530 million~$550 million.",
+      "event_date": "2026-05-28",
+      "published_date": "2026-05-28",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-018669",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926018669/ex_968979.htm",
+        "quote": "Total revenue of $530 million to $550 million"
+      }
+    },
+    {
+      "id": "BBW-16",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "현재 전망: 2026 회계연도 세전이익 $60 million~$68 million(약 $13 million IEEPA 관세 환급 포함)으로 하향, 전기 관련 약 $7 million 제외 조정 세전이익은 $53 million~$61 million.",
+      "event_date": "2026-08-27",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Pre-tax income of $60 million to $68 million"
+      }
+    },
+    {
+      "id": "BBW-17",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "직전 전망: 2026 회계연도 세전이익 $72 million~$78 million(조정 세전이익 $65 million~$71 million).",
+      "event_date": "2026-05-28",
+      "published_date": "2026-05-28",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-018669",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926018669/ex_968979.htm",
+        "quote": "Pre-tax income of $72 million to $78 million"
+      }
+    },
+    {
+      "id": "BBW-18",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "관세 가정: 현재 전망은 현행 12.5% 관세율 기준 $10 million~$11 million의 관세·관련 비용을 반영(직전 전망은 10% 관세율 기준 약 $10 million).",
+      "event_date": "2026-08-27",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "The outlook also reflects $10 million to $11 million of ongoing tariffs and related costs, based on the current 12.5% tariff rate"
+      }
+    },
+    {
+      "id": "BBW-19",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "직전 전망의 관세 가정: 현행 10% 관세율 유지 가정 하에 약 $10 million의 Section 122 관세·관련 비용.",
+      "event_date": "2026-05-28",
+      "published_date": "2026-05-28",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-018669",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926018669/ex_968979.htm",
+        "quote": "Our outlook also reflects approximately $10 million of ongoing Section 122 tariffs and related costs, assuming the current 10% tariff rate remains in effect for the balance of the year"
+      }
+    },
+    {
+      "id": "BBW-20",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "커머셜 매출 전망은 직전 '최소 20% 성장'에서 현재 '2025 회계연도 대비 대체로 보합'으로 낮아졌다.",
+      "event_date": "2026-08-27",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Commercial revenue to be approximately flat compared to fiscal 2025"
+      }
+    },
+    {
+      "id": "BBW-21",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "직전 전망(1분기)은 커머셜 매출 성장률 최소 20%였다.",
+      "event_date": "2026-05-28",
+      "published_date": "2026-05-28",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-018669",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926018669/ex_968979.htm",
+        "quote": "Commercial revenue growth of at least 20%"
+      }
+    },
+    {
+      "id": "BBW-22",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "순신규 체험 매장 최소 50개 증가 전망은 유지됐다.",
+      "event_date": "2026-08-27",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/ex_1009466.htm",
+        "quote": "Net new unit growth of at least 50 experience locations through a combination of corporately-managed, partner-operated, and franchise business models"
+      }
+    },
+    {
+      "id": "BBW-23",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "계획된 CEO 승계가 완료되어 Chris Hurt가 2026-06-11부로 CEO에 취임했고, 13년간 회사를 이끈 Sharon Price John은 이사회에 남는다.",
+      "event_date": "2026-06-11",
+      "published_date": "2026-06-12",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001437749-26-020380",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926020380/ex_975287.htm",
+        "quote": "today announced that Chris Hurt has assumed the role of Chief Executive Officer (CEO), effective June 11, 2026. The transition follows the planned succession of Sharon Price John, who led the company for 13 years and will remain on the Board of Directors."
+      }
+    },
+    {
+      "id": "BBW-24",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "CFO Voin Todorovic가 2026-06-11부로 최고관리책임자(CAO)를 겸임하도록 승진했고, 개정 고용계약상 연 기본급은 최소 $500,000이다.",
+      "event_date": "2026-06-11",
+      "published_date": "2026-06-12",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001437749-26-020380",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926020380/bbw20260610c_8k.htm",
+        "quote": "the Company had promoted Voin Todorovic, to the additional role of Chief Administrative Officer effective as of June 11, 2026 (the “Promotion Effective Date”), while he will continue to serve as Chief Financial Officer of the Company."
+      }
+    },
+    {
+      "id": "BBW-25",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "회사는 2026-08-26 최고성장책임자(CGO) David Henderson을 사유 없이(without cause) 해고했으며, 퇴직합의에 따라 $501,500의 현금 퇴직금 등을 지급한다.",
+      "event_date": "2026-08-26",
+      "published_date": "2026-08-27",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001437749-26-029054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029054/bbw20260826_8k.htm",
+        "quote": "terminated the employment of David Henderson, Chief Growth Officer, without cause, effective as August 26, 2026"
+      }
+    },
+    {
+      "id": "BBW-26",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "2026-06-11 정기주총에서 이사 3명(James A Goldman, Narayan Iyengar, Lesli Rotenberg)이 선임되고 Ernst & Young LLP 감사인 선임이 비준됐다.",
+      "event_date": "2026-06-11",
+      "published_date": "2026-06-12",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001437749-26-020370",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926020370/bbw20260610_8k.htm",
+        "quote": "The three directors, as indicated below, were elected as directors of the Company by the requisite affirmative vote of the majority of votes cast in person or by proxy."
+      }
+    },
+    {
+      "id": "BBW-27",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "이사회는 2026-06-11 주당 $0.23의 분기 현금배당을 결의했다(2026-07-09 지급).",
+      "event_date": "2026-06-11",
+      "published_date": "2026-06-11",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001437749-26-020299",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926020299/bbw20260605_8k.htm",
+        "quote": "declared a quarterly cash dividend of $0.23 per share to be paid on July 9, 2026"
+      }
+    },
+    {
+      "id": "BBW-28",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "이사회는 2026-09-09 주당 $0.23의 분기 현금배당을 결의했다(2026-10-08 지급).",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-09",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001437749-26-029998",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926029998/bbw20260904_8k.htm",
+        "quote": "declared a quarterly cash dividend of $0.23 per share to be paid on October 8, 2026"
+      }
+    },
+    {
+      "id": "BBW-29",
+      "section": "4_events",
+      "tier": "background",
+      "fact": "2026-03-12 회사는 Sharon Price John CEO의 은퇴와 J. Christopher Hurt의 차기 CEO 선임(2026-06-11 발효)을 발표했다(조사 창 이전).",
+      "event_date": "2026-03-12",
+      "published_date": "2026-03-12",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001437749-26-007825",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926007825/bbw20260311c_8k.htm",
+        "quote": "announced that Sharon Price John will retire as its President and Chief Executive Officer following a transition period, and that the Company had appointed J. Christopher Hurt, 59, to become Chief Executive Officer following such transition period."
+      }
+    },
+    {
+      "id": "BBW-30",
+      "section": "5_legal",
+      "tier": "optional",
+      "fact": "영국 관세청(HMRC)과의 2012년 관세 부과 분쟁: 1분기에 약 $0.6 million을 환급받았고, 2026-08-01 기준 순채권은 $0.2 million이며 회사는 결과가 중대한 악영향을 주지 않을 것으로 본다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "and a net receivable of $0.2 million as of August 1, 2026. The Company believes that the outcome of this dispute will not have a material adverse impact on the results of operations, liquidity, or financial position of the Company."
+      }
+    },
+    {
+      "id": "BBW-31",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "관세 위험: 회사는 2026 회계연도 전망에 약 12.5%의 추정 실효 관세율에 따른 지속 관세·관련 비용을 반영했으며 향후 관세 정책 불확실성이 남아 있다고 밝혔다.",
+      "event_date": "2026-08-01",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001437749-26-030081",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926030081/bbw20260801c_10q.htm",
+        "quote": "the Company's fiscal 2026 outlook reflects the impact of ongoing tariffs and related costs associated with an estimated effective tariff rate of approximately 12.5%"
+      }
+    },
+    {
+      "id": "BBW-32",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "조달 집중 위험: 2025 회계연도 입고 상품 중 중국 비중은 51%, 베트남은 44%이다.",
+      "event_date": "2026-01-31",
+      "published_date": "2026-04-16",
+      "source": {
+        "type": "sec",
+        "doc": "10-K 0001437749-26-012501",
+        "url": "https://www.sec.gov/Archives/edgar/data/1113809/000143774926012501/bbw20251218c_10k.htm",
+        "quote": "our efforts to diversify our supply chain reduced China sourcing to 51% of merchandise received as production shifted primarily to Vietnam, which provided 44% of our merchandise in fiscal 2025"
+      }
+    },
+    {
+      "id": "BBW-33",
+      "section": "7_industry",
+      "tier": "optional",
+      "fact": "미국 인구조사국 속보: 2026년 8월 소매·외식 판매(계절조정)는 $773.9 billion으로 전월 대비 1.2%, 전년 동월 대비 6.0% 증가했다.",
+      "event_date": null,
+      "published_date": "2026-09-16",
+      "source": {
+        "type": "industry",
+        "doc": "U.S. Census Bureau, Advance Monthly Sales for Retail and Food Services, August 2026 (CB26-153)",
+        "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+        "quote": "were $773.9 billion, up 1.2 percent (±0.4 percent) from the previous month, and up 6.0 percent (±0.5 percent) from August 2025."
+      }
+    }
+  ],
+  "searched_not_found": [
+    {
+      "section": "5_legal",
+      "checked": "2026-08-01 10-Q 전체(Part II에 Item 1 Legal Proceedings 항목 자체가 없음, Note 12 Contingencies는 HMRC 건만 기술하고 비중대 판단)와 2025 10-K Item 3(일상적 소송, Note 10 참조) 확인 — 중요 소송·규제조사 공시 없음."
+    },
+    {
+      "section": "4_events",
+      "checked": "조사 창(2026-04-14~10-11) 8-K 전부 확인: 05-28(2.02 실적→1_results), 06-11(8.01 배당), 06-12(5.07 주총), 06-12(5.02 CEO 승계·CAO), 08-27(2.02 실적 + 5.02 CGO 해고), 09-09(8.01 배당). 인수·매각, 구조조정·손상, 사이버, 감사인·상장 문제 8-K(1.01/2.01/2.05/2.06/1.05/4.01/3.01)는 없음. 2026-04-17 10-K/A는 전시물 하이퍼링크 수정용."
+    },
+    {
+      "section": "2_cash_debt",
+      "checked": "10-Q·보도자료에서 신규 채권 발행·대출 등 큰 자금조달 확인 — 없음(회전신용 미인출, 자금 사용은 자사주 매입·배당·설비투자)."
+    },
+    {
+      "section": "choi",
+      "checked": "companyfacts에서 OperatingIncomeLoss, ShortTermBorrowings, LongTermDebtCurrent, FinanceLeaseLiabilityCurrent, LineOfCreditFacilityAmountOutstanding, LongTermLineOfCredit 조회 — BBW 사실 없음."
+    },
+    {
+      "section": "7_industry",
+      "checked": "인구조사국 MARTS 업종표에서 완구 단독 업종 통계는 없음(451 Sporting goods, hobby, musical instrument & book stores로 묶임) — 해당 업종 수치는 표 셀 분리로 인용 신뢰도가 낮아 제외."
+    }
+  ]
+}
