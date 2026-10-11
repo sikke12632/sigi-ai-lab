@@ -1,8 +1,596 @@
 {
-  "company": {"ticker": "WYNN", "cik": "0001174922", "name": "Wynn Resorts, Limited"},
+  "company": {
+    "ticker": "WYNN",
+    "cik": "0001174922",
+    "name": "Wynn Resorts, Limited"
+  },
   "cutoff": "2026-10-11",
-  "latest_periodic_report": {"form": "10-Q", "accession": "0001174922-26-000055", "period_end": "2026-06-30", "filed": "2026-08-06"},
-  "choi": [],
-  "kim": [],
-  "searched_not_found": []
+  "latest_periodic_report": {
+    "form": "10-Q",
+    "accession": "0001174922-26-000055",
+    "period_end": "2026-06-30",
+    "filed": "2026-08-06"
+  },
+  "choi": [
+    {
+      "target": "operating_income",
+      "status": "value",
+      "value_usd": 580192000,
+      "printed": "580,192",
+      "printed_scale": "thousands",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-Q 0001174922-26-000055",
+        "location": "Condensed Consolidated Statements of Operations",
+        "quote": "Operating income 297,588 264,600 580,192 533,189"
+      },
+      "xbrl": {
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "value": 580192000
+      },
+      "note": "Six Months Ended June 30, 2026 (YTD)."
+    },
+    {
+      "target": "short_term_borrowings",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-Q 0001174922-26-000055",
+        "location": "Condensed Consolidated Balance Sheets - Current liabilities",
+        "quote": "Accrued interest 133,814 132,772 Current portion of long-term debt 1,428,965 9,410 Other accrued liabilities 203,403 214,955 Total current liabilities 2,908,557 1,643,178"
+      },
+      "xbrl": null,
+      "note": "유동부채에 단기차입금 계정이 없음. 리볼버 차입(WRF Revolver due 2030 $200,000천, WM Cayman II Revolver due 2028 $1,142,653천)은 Note 6에서 장기부채로 표시됨. companyfacts에 ShortTermBorrowings 없음."
+    },
+    {
+      "target": "current_long_term_debt_ex_leases",
+      "status": "value",
+      "value_usd": 1428965000,
+      "printed": "1,428,965",
+      "printed_scale": "thousands",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-Q 0001174922-26-000055",
+        "location": "Condensed Consolidated Balance Sheets / Note 6 - Long-Term Debt",
+        "quote": "Current portion of long-term debt 1,428,965 9,410"
+      },
+      "xbrl": {
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "value": 1428965000
+      },
+      "note": "리스 미포함(금융리스는 Other accrued liabilities에 포함). WML 전환사채 순장부가액과 전환권 파생상품(1,963천)이 포함됨(Note 6 각주 2)."
+    },
+    {
+      "target": "current_finance_leases",
+      "status": "not_determinable",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-K 0001174922-26-000013",
+        "location": "10-K FY2025 Note 16 - Leases (balance sheet classification)",
+        "quote": "Finance leases Other accrued liabilities $ 27,810 $ 18,367"
+      },
+      "xbrl": null,
+      "note": "유동 금융리스부채는 'Other accrued liabilities'에 포함되어 별도 표시되지 않음. 2026-06-30 10-Q의 Note 14 Leases는 임대인(lessor) 정보만 공시하고 임차 금융리스 잔액을 공시하지 않으며, companyfacts에도 2026-06-30 FinanceLeaseLiabilityCurrent 값이 없음. 최근 공시값은 2025-12-31 $27,810천(10-K)."
+    }
+  ],
+  "kim": [
+    {
+      "id": "WYNN-01",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026년 2분기 영업수익(operating revenues)은 $1.86 billion으로 전년 동기 $1.74 billion 대비 $119.1 million 증가했다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/ex991wrlq22026pressrelease.htm",
+        "quote": "Operating revenues were $1.86 billion for the second quarter of 2026, an increase of $119.1 million from $1.74 billion for the second quarter of 2025."
+      }
+    },
+    {
+      "id": "WYNN-02",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026년 2분기 Wynn Resorts 귀속 순이익은 $140.1 million으로 전년 동기 $66.2 million에서 증가했고, 희석 주당순이익은 $1.32(전년 $0.64)였다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/ex991wrlq22026pressrelease.htm",
+        "quote": "Net income attributable to Wynn Resorts, Limited was $140.1 million for the second quarter of 2026, compared to net income attributable to Wynn Resorts, Limited of $66.2 million for the second quarter of 2025. Diluted net income per share was $1.32 for the second quarter of 2026"
+      }
+    },
+    {
+      "id": "WYNN-03",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "영업이익은 2026년 2분기 297,588(천 달러, 전년 264,600), 상반기(YTD) 580,192(전년 533,189)였다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "Operating income 297,588 264,600 580,192 533,189"
+      }
+    },
+    {
+      "id": "WYNN-04",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026년 상반기 총 영업수익은 3,713,695(천 달러)로 전년 동기 3,438,194 대비 증가했다(2분기 1,856,933, 전년 1,737,797).",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "Total operating revenues 1,856,933 1,737,797 3,713,695 3,438,194"
+      }
+    },
+    {
+      "id": "WYNN-05",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026년 상반기 Wynn Resorts 귀속 순이익은 $ 260,516(천 달러)로 전년 동기 $ 138,965 대비 증가했다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "Net income attributable to Wynn Resorts, Limited $ 140,062 $ 66,218 $ 260,516 $ 138,965"
+      }
+    },
+    {
+      "id": "WYNN-06",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "회사는 2분기 영업수익 증가가 주로 Wynn Palace의 매스마켓 테이블게임 볼륨·승률 상승에 따른 카지노 수익 $116.1 million 증가 때문이라고 밝혔다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "The increase in operating revenues for the three months ended June 30, 2026 was largely driven by increased casino revenues of $116.1 million at Wynn Palace as a result of higher mass market table games volume and win."
+      }
+    },
+    {
+      "id": "WYNN-07",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026년 2분기 Adjusted Property EBITDAR는 $568.3 million으로 전년 동기 $552.4 million 대비 $15.9 million 증가했다(비GAAP).",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/ex991wrlq22026pressrelease.htm",
+        "quote": "Adjusted Property EBITDAR was $568.3 million for the second quarter of 2026, an increase of $15.9 million compared to Adjusted Property EBITDAR of $552.4 million for the second quarter of 2025."
+      }
+    },
+    {
+      "id": "WYNN-08",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026년 2분기 파생상품 공정가치 변동으로 $43.3 million 이익(외화스왑 $35.9 million, WML 전환사채 전환권 $7.0 million)을 인식했다(영업외 항목).",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "We recorded a gain of $43.3 million for the three months ended June 30, 2026, from change in derivatives fair value, which includes a gain of $35.9 million related to foreign currency swaps and a gain of $7.0 million related to the conversion feature on the WML Convertible Bonds."
+      }
+    },
+    {
+      "id": "WYNN-09",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "상반기 카지노 비용은 Wynn Palace에서 $142.9 million, Wynn Macau에서 $17.2 million 증가했으며, 이 중 카지노 수익 증가에 따른 게이밍세 증가가 각각 $120.6 million, $7.7 million이었다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "Casino expense increased $142.9 million and $17.2 million at Wynn Palace and Wynn Macau, respectively, which includes increases of $120.6 million and $7.7 million, respectively, in gaming tax expense driven by an increase in casino revenue."
+      }
+    },
+    {
+      "id": "WYNN-10",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026년 상반기 영업활동 순현금유입은 645,380(천 달러)로 전년 동기 538,836보다 늘었다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "Net cash provided by operating activities 645,380 538,836"
+      }
+    },
+    {
+      "id": "WYNN-11",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026-06-30 현금및현금성자산은 $ 1,573,353(천 달러)로 2025-12-31 $ 1,463,442에서 증가했다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "Cash and cash equivalents $ 1,573,353 $ 1,463,442"
+      }
+    },
+    {
+      "id": "WYNN-12",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026-06-30 유동·장기 총차입금은 $10.72 billion이며, 마카오 관련 $5.76 billion, Wynn Las Vegas $877.8 million, WRF $3.49 billion, 리테일 JV $598.9 million으로 구성된다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/ex991wrlq22026pressrelease.htm",
+        "quote": "Total current and long-term debt outstanding at June 30, 2026 was $10.72 billion, comprised of $5.76 billion of Macau-related debt, $877.8 million of Wynn Las Vegas debt, $3.49 billion of WRF debt, and $598.9 million of debt held by the retail joint venture which we consolidate."
+      }
+    },
+    {
+      "id": "WYNN-13",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026년 2분기 중 WRF Revolver에서 $200.0 million을 인출했다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "During the three months ended June 30, 2026, the Company drew $200.0 million under the WRF Revolver."
+      }
+    },
+    {
+      "id": "WYNN-14",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "WML 전환사채 순장부가액과 전환권 파생상품이 2026-06-30 기준 유동성 장기부채로 분류되어, 유동성 장기부채가 1,428,965(천 달러, 2025년 말 9,410)로 늘었다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "The net carrying amount of the WML Convertible Bonds, together with the WML Convertible Bond Conversion Option Derivative, is included in Current portion of long-term debt as of June 30, 2026."
+      }
+    },
+    {
+      "id": "WYNN-15",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026년 2분기 자사주 741,098주를 평균 $101.20에 총 $75.0 million에 매입했고, 6월 30일 기준 잔여 매입한도는 $326.1 million이다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/ex991wrlq22026pressrelease.htm",
+        "quote": "During the second quarter of 2026, the Company repurchased 741,098 shares of its common stock under its publicly announced equity repurchase program at an average price of $101.20 per share, for an aggregate cost of $75.0 million."
+      }
+    },
+    {
+      "id": "WYNN-16",
+      "section": "2_cash_debt",
+      "tier": "optional",
+      "fact": "2026-06-16 WML이 주당 HK$0.223(총 약 $149.8 million) 현금배당을 지급했고 회사 몫은 $106.7 million이었다.",
+      "event_date": "2026-06-16",
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "On June 16, 2026, WML paid a cash dividend of HK$0.223 per share on its common stock for a total U.S. dollar equivalent of approximately $149.8 million in respect of the year ended December 31, 2025. Our share of this dividend was $106.7 million."
+      }
+    },
+    {
+      "id": "WYNN-17",
+      "section": "2_cash_debt",
+      "tier": "optional",
+      "fact": "이사회는 2026-08-04 주당 $0.25 현금배당을 결의했다(8월 28일 지급, 기준일 8월 14일).",
+      "event_date": "2026-08-04",
+      "published_date": "2026-08-04",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001174922-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/wynn-20260804.htm",
+        "quote": "On August 4, 2026, the Company announced that its Board of Directors declared a cash dividend of $0.25 per share, payable on August 28, 2026 to stockholders of record as of August 14, 2026."
+      }
+    },
+    {
+      "id": "WYNN-18",
+      "section": "3_guidance",
+      "tier": "optional",
+      "fact": "[현재 전망] 2분기 10-Q에서 Al Marjan 프로젝트 잔여 40% 지분 출자 추정액은 $525 million~$650 million, Wynn Al Marjan Island 개장은 2027년 9월, Janu Al Marjan Island는 2029년 개장 예상으로 제시됐다.",
+      "event_date": null,
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "between $525 million and $650 million, inclusive of capitalized interest and fees. Wynn Al Marjan Island is currently expected to open in September 2027 and Janu Al Marjan Island is expected to open in 2029."
+      }
+    },
+    {
+      "id": "WYNN-19",
+      "section": "3_guidance",
+      "tier": "optional",
+      "fact": "[직전 전망] 1분기 10-Q에서는 잔여 출자 추정액 $350 million~$450 million, Wynn Al Marjan Island 2027년 개장, Janu Al Marjan Island 2028년 개장 예상이었다.",
+      "event_date": null,
+      "published_date": "2026-05-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000035",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000035/wynn-20260331.htm",
+        "quote": "between $350 million and $450 million, inclusive of capitalized interest, fees, and certain improvements on the island. Wynn Al Marjan Island is currently expected to open in 2027 and Janu Al Marjan Island is expected to open in 2028."
+      }
+    },
+    {
+      "id": "WYNN-20",
+      "section": "3_guidance",
+      "tier": "optional",
+      "fact": "[현재 전망] 라스베이거스 프로젝트 자본지출은 2026년 $350 million~$375 million, 2027년 $175 million~$200 million으로 예상된다.",
+      "event_date": null,
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "We expect to make estimated project capital expenditures between $350 million and $375 million during 2026 and between $175 million and $200 million during 2027 related to enhancements at our Las Vegas Operations."
+      }
+    },
+    {
+      "id": "WYNN-21",
+      "section": "3_guidance",
+      "tier": "optional",
+      "fact": "[직전 전망] 1분기 10-Q에서 라스베이거스 프로젝트 자본지출은 2026년 $375 million~$400 million, 2027년 $150 million~$175 million으로 예상됐다.",
+      "event_date": null,
+      "published_date": "2026-05-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000035",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000035/wynn-20260331.htm",
+        "quote": "We expect to make estimated project capital expenditures between $375 million and $400 million during 2026 and between $150 million and $175 million during 2027 related to enhancements at our Las Vegas Operations."
+      }
+    },
+    {
+      "id": "WYNN-22",
+      "section": "3_guidance",
+      "tier": "optional",
+      "fact": "[현재 전망] Enclave at Wynn Palace 및 마카오 개선 프로젝트 자본지출은 2026년 $350 million~$400 million, 2027년 $750 million~$800 million으로 예상된다.",
+      "event_date": null,
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "Total project capital expenditures for the Enclave at Wynn Palace and other enhancements at our Macau Operations are expected to be between $350 million and $400 million during 2026 and between $750 million and $800 million during 2027."
+      }
+    },
+    {
+      "id": "WYNN-23",
+      "section": "3_guidance",
+      "tier": "optional",
+      "fact": "[직전 전망] 1분기 10-Q에서 마카오 프로젝트 자본지출은 2026년 $400 million~$450 million, 2027년 $700 million~$750 million으로 예상됐다.",
+      "event_date": null,
+      "published_date": "2026-05-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000035",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000035/wynn-20260331.htm",
+        "quote": "Total project capital expenditures for the Enclave at Wynn Palace and other enhancements at our Macau Operations are expected to be between $400 million and $450 million during 2026 and between $700 million and $750 million during 2027."
+      }
+    },
+    {
+      "id": "WYNN-24",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-07-21(홍콩시간 7월 22일) 마카오 정부가 Palo와 Wynn Macau의 개정 코타이 토지 양허계약을 관보에 게재했으며, 이에 따라 Wynn Palace에 5성급 호텔·극장·이벤트센터 증축이 허용되고 추가 토지 프리미엄 MOP652.3 million(약 $80.8 million)을 일시 납부해야 한다.",
+      "event_date": "2026-07-21",
+      "published_date": "2026-07-22",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001174922-26-000047",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000047/wynn-20260721.htm",
+        "quote": "Palo is required to pay the Macau Government an additional land premium of MOP652.3 million (approximately $80.8 million) as a one-time lump sum payment upon Palo’s acceptance of the conditions of the Amended Land Concession Contract."
+      }
+    },
+    {
+      "id": "WYNN-25",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-10 회사는 Wynn Resorts Finance가 $900 million 규모 2035년 만기 선순위채 사모 발행을 추진하며, 순조달액과 보유현금으로 Wynn Las Vegas의 5.250% 2027년 만기 선순위채를 전액 상환할 계획이라고 발표했다.",
+      "event_date": "2026-09-10",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000062",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000062/ex991-wrf900mseniornotesla.htm",
+        "quote": "Wynn Resorts Finance plans to contribute and/or lend the net proceeds from the offering, together with cash on hand, to its subsidiary, Wynn Las Vegas, who will use the amounts to (i) redeem in full the 2027 WLV Notes"
+      }
+    },
+    {
+      "id": "WYNN-26",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-10 Wynn Resorts Finance의 $900 million 6.875% 2035년 만기 선순위채 가격이 결정되었다.",
+      "event_date": "2026-09-10",
+      "published_date": "2026-09-10",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000066",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000066/ex991-wrf900mseniornotespr.htm",
+        "quote": "announced today the pricing by Wynn Resorts Finance, LLC (“Wynn Resorts Finance”) and its subsidiary Wynn Resorts Capital Corp."
+      }
+    },
+    {
+      "id": "WYNN-27",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026-09-22 WRF와 Wynn Resorts Capital이 $900 million 6.875% 선순위채(2035-03-15 만기)를 indenture에 따라 발행했다.",
+      "event_date": "2026-09-22",
+      "published_date": "2026-09-22",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001174922-26-000069",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000069/wynn-20260922.htm",
+        "quote": "issued $900 million aggregate principal amount of 6.875% Senior Notes due 2035 (the “Notes”)."
+      }
+    },
+    {
+      "id": "WYNN-28",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "2026-05-06 정기주총에서 Class III 이사 3명(Richard J. Byrne, Patricia Mulroy, Philip G. Satre) 선임, EY 감사인 선임 비준, 2014 Omnibus Incentive Plan 300만 주 증액 등이 승인되었다.",
+      "event_date": "2026-05-06",
+      "published_date": "2026-05-08",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001174922-26-000037",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000037/wynn-20260506.htm",
+        "quote": "To approve an amendment and restatement of the Company's amended and restated 2014 Omnibus Incentive Plan to increase the authorized shares by 3,000,000 shares:"
+      }
+    },
+    {
+      "id": "WYNN-29",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "2026-08-31 약 72% 지분을 보유한 자회사 WML이 2026년 상반기 중간보고서를 홍콩거래소에 제출했고, 회사는 이를 8-K(7.01)로 제공했다.",
+      "event_date": "2026-08-31",
+      "published_date": "2026-08-31",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001174922-26-000057",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000057/wynn-20260831.htm",
+        "quote": "filed with the HKSE its interim report in respect of the six months ended June 30, 2026 (the \"Interim Report\"). The Registrant owns approximately 72% of WML's ordinary shares of common stock."
+      }
+    },
+    {
+      "id": "WYNN-30",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "2026-04-28 자회사 WML이 2025 회계연도 연차보고서를 홍콩거래소에 제출했고, 회사는 이를 8-K(7.01)로 제공했다.",
+      "event_date": "2026-04-28",
+      "published_date": "2026-04-30",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001174922-26-000027",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000027/wynn-20260428.htm",
+        "quote": "filed with the HKSE its annual report in respect of the year ended December 31, 2025 (the \"Annual Report\")."
+      }
+    },
+    {
+      "id": "WYNN-31",
+      "section": "5_legal",
+      "tier": "optional",
+      "fact": "10-Q 소송 주석에서 회사는 정상 영업 과정의 소송에 관여하고 있으나 재무상태·경영성과·현금흐름에 중요한 영향은 없을 것으로 본다고만 밝혔으며, 개별 중요 소송은 공시되지 않았다.",
+      "event_date": null,
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "The Company and its affiliates are involved in litigation arising in the normal course of business. In the opinion of management, such litigation is not expected to have a material effect on the Company's financial condition, results of operations, and cash flows."
+      }
+    },
+    {
+      "id": "WYNN-32",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "WML은 2027-03-07 사채권자 선택에 따라 WML 전환사채 전부 또는 일부를 상환해야 할 수 있다(풋옵션).",
+      "event_date": null,
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "WML may be required to redeem all or a portion of the WML Convertible Bonds at the option of bond holders on March 7, 2027."
+      }
+    },
+    {
+      "id": "WYNN-33",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "회사는 라스알카이마 정부와 함께 약 $2.4 billion Al Marjan 대출에 대한 완공보증을 제공했으며, 보증은 전액 상환 또는 늦어도 2028-06-30까지의 실질 완공 시 종료된다.",
+      "event_date": null,
+      "published_date": "2026-08-06",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0001174922-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm",
+        "quote": "the date of practical completion of the project (as provided in the Al Marjan Facility Agreement), taking place no later than June 30, 2028."
+      }
+    },
+    {
+      "id": "WYNN-34",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "CEO는 1분기 실적발표에서 Wynn Al Marjan Island 공사 진행 중 걸프 지역 정세를 면밀히 주시하며 현지 인력 안전을 위한 추가 예방조치를 취하고 있다고 밝혔다.",
+      "event_date": "2026-05-07",
+      "published_date": "2026-05-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001174922-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000034/ex991wrlq12026pressrelease.htm",
+        "quote": "Construction on Wynn Al Marjan Island continues to progress, and we are closely monitoring the broader situation in the Gulf region while taking additional precautions to ensure the safety and well-being of our team on the ground."
+      }
+    },
+    {
+      "id": "WYNN-35",
+      "section": "7_industry",
+      "tier": "optional",
+      "fact": "마카오 DICJ 집계 2026년 9월 카지노 총수입(GGR)은 MOP 18,063 million으로 전년 동월 18,289 대비 -1.2%, 1~9월 누적은 187,116으로 전년 대비 3.2% 증가했다.",
+      "event_date": "2026-09-30",
+      "published_date": null,
+      "source": {
+        "type": "regulator",
+        "doc": "DICJ (Macao Gaming Inspection and Coordination Bureau) Monthly Gross Revenue from Games of Fortune 2026",
+        "url": "https://www.dicj.gov.mo/web/en/information/DadosEstat_mensal/2026/report_en.xml",
+        "quote": "Sept18,06318,289-1.2%187,116181,3413.2%"
+      }
+    }
+  ],
+  "searched_not_found": [
+    {
+      "section": "3_guidance",
+      "checked": "2026-05-07·08-04 실적 보도자료(8-K EX-99.1), 1Q·2Q 10-Q MD&A에서 매출·이익·EBITDAR 등 공식 재무 가이던스를 찾았으나 없음. 프로젝트 일정·자본지출 전망만 있어 optional로 기록."
+    },
+    {
+      "section": "5_legal",
+      "checked": "2Q 10-Q Note 15 Litigation 및 Part II Item 1 Legal Proceedings, FY2025 10-K Note 18: 개별 중요 소송·조사 공시 없음(일반 문구만)."
+    },
+    {
+      "section": "4_events",
+      "checked": "조사 창 내 Item 5.02(경영진·이사 변경), 2.01, 2.05/2.06(구조조정·손상), 1.05(사이버), 4.01/3.01(감사인·상장) 8-K 없음(EDGAR 제출목록 확인). 2027 WLV Notes 상환 완료 공시는 기준일까지 확인되지 않음."
+    },
+    {
+      "section": "choi.current_finance_leases",
+      "checked": "2Q 10-Q 본문·Note 14 및 companyfacts FinanceLeaseLiabilityCurrent(2026-06-30 값 없음)."
+    }
+  ]
 }

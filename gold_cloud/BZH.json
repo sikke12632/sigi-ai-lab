@@ -1,0 +1,635 @@
+{
+  "company": {
+    "ticker": "BZH",
+    "cik": "0000915840",
+    "name": "Beazer Homes USA Inc"
+  },
+  "cutoff": "2026-10-11",
+  "latest_periodic_report": {
+    "form": "10-Q",
+    "accession": "0000915840-26-000052",
+    "period_end": "2026-06-30",
+    "filed": "2026-08-07"
+  },
+  "choi": [
+    {
+      "target": "operating_income",
+      "status": "value",
+      "value_usd": -62176000,
+      "printed": "(62,176)",
+      "printed_scale": "thousands",
+      "period_start": "2025-10-01",
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-Q 0000915840-26-000052",
+        "location": "Condensed Consolidated Statements of Operations (Nine Months Ended June 30, 2026)",
+        "quote": "Operating (loss) income (11,365) (3,710) (62,176) 11,797"
+      },
+      "xbrl": {
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "value": -62176000
+      },
+      "note": "손익계산서에 'Operating (loss) income' 행이 직접 표시됨. 회계연도 시작 10월 1일 → YTD는 2025-10-01~2026-06-30(9개월), companyfacts 컨텍스트(start 2025-10-01, end 2026-06-30)로 확인. 3개월(Q3) 값은 (11,365)."
+    },
+    {
+      "target": "short_term_borrowings",
+      "status": "value",
+      "value_usd": 340000000,
+      "printed": "340,000",
+      "printed_scale": "thousands",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-Q 0000915840-26-000052",
+        "location": "Note 6 Borrowings — debt table (Senior Unsecured Revolving Credit Facility)",
+        "quote": "Senior Unsecured Revolving Credit Facility March 2030 340,000 —"
+      },
+      "xbrl": null,
+      "note": "재무상태표가 미분류(유동/비유동 구분 없음)이며 별도 '단기차입금' 계정은 없음. 신용한도(Unsecured Facility) 인출액 $340.0 million은 'Total debt' 1,409,132에 포함되어 표시되고 만기(Termination Date)는 2030년 3월. 명세서 규칙(신용한도 차입은 단기차입금)에 따라 리볼버 기말 인출 잔액을 단기차입금으로 기재함. 주석 원문: \"As of June 30, 2026, we had $340.0 million in borrowings and $45.8 million in letters of credit outstanding under the Unsecured Facility\". 회사 표시 기준(단기차입금 계정 부재)만 엄격히 보면 none_presented로도 볼 수 있는 경계 사례. companyfacts에 비차원(non-dimensional) 해당 태그가 없어 xbrl은 null(차원 멤버로만 태깅된 것으로 보임)."
+    },
+    {
+      "target": "current_long_term_debt_ex_leases",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-Q 0000915840-26-000052",
+        "location": "Condensed Consolidated Balance Sheets — liabilities (unclassified)",
+        "quote": "Trade accounts payable $ 177,337 $ 143,481 Operating lease liabilities 26,345 27,762 Other liabilities 144,946 160,445 Total debt (net of debt issuance costs of $10,888 and $6,611, respectively) 1,409,132 1,029,114 Total liabilities 1,757,760 1,360,802"
+      },
+      "xbrl": null,
+      "note": "미분류 재무상태표: 부채는 Trade accounts payable, Operating lease liabilities, Other liabilities, Total debt 4개 항목뿐이며 유동부채 구분과 '유동성 장기부채' 행이 없음. Note 6 차입금 표도 만기일만 표시하고 유동분을 구분하지 않음(2027 Notes는 분기 중 전액 상환되어 잔액 $ —; 남은 최단 만기는 2029년 10월). 보도자료 원문: \"The Company’s nearest maturity is now the $350.0 million tranche of Senior Unsecured Notes due in October 2029.\" 만기표로 유동분을 추정하지 않음."
+    },
+    {
+      "target": "current_finance_leases",
+      "status": "none_presented",
+      "value_usd": null,
+      "printed": null,
+      "printed_scale": null,
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "source": {
+        "doc": "10-Q 0000915840-26-000052",
+        "location": "Condensed Consolidated Balance Sheets — liabilities (unclassified)",
+        "quote": "Trade accounts payable $ 177,337 $ 143,481 Operating lease liabilities 26,345 27,762 Other liabilities 144,946 160,445 Total debt (net of debt issuance costs of $10,888 and $6,611, respectively) 1,409,132 1,029,114 Total liabilities 1,757,760 1,360,802"
+      },
+      "xbrl": null,
+      "note": "부채 목록에 금융리스 부채 계정이 없고 리스 부채는 'Operating lease liabilities'(운용리스)뿐임. 리스 주석 제목도 '(7) Operating Leases'이며 원문: \"The Company leases certain office space and equipment under operating leases for use in our operations.\" 금융리스 공시 없음. 운용리스는 금융리스가 아니므로 none_presented."
+    }
+  ],
+  "kim": [
+    {
+      "id": "BZH-01",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "2026회계연도 3분기(2026년 4~6월) 총매출은 $516,306천으로 전년 동기 $545,367천보다 줄었고, 9개월 누적 총매출은 $1,289,643천(전년 $1,579,659천)이었다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "Total revenue $ 516,306 $ 545,367 $ 1,289,643 $ 1,579,659"
+      }
+    },
+    {
+      "id": "BZH-02",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "9개월 누적 영업손익은 $62.2 million 손실로 전년 동기 영업이익 $11.8 million 대비 $74.0 million 감소했으며, 회사는 매출총이익·매출총이익률 하락을 주된 원인으로 밝혔다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "Our operating income decreased by $74.0 million to a loss of $62.2 million for the nine months ended June 30, 2026, compared to operating income of $11.8 million for the nine months ended June 30, 2025."
+      }
+    },
+    {
+      "id": "BZH-03",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "3분기 영업손실은 $11.4 million으로 전년 동기 $3.7 million 손실보다 $7.7 million 악화되었고, 원인은 매출총이익·매출총이익률 감소였다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "Our operating income decreased by $7.7 million to a loss of $11.4 million for the three months ended June 30, 2026, compared to operating loss of $3.7 million for the three months ended June 30, 2025."
+      }
+    },
+    {
+      "id": "BZH-04",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "3분기 GAAP 순손실은 $4.2 million(희석주당 $0.16 손실)으로 전년 동기 순손실 $0.3 million(주당 $0.01 손실)보다 확대되었다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000915840-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
+        "quote": "Net loss was $4.2 million, or net loss of $0.16 per diluted share. During the fiscal third quarter 2025, net loss was $0.3 million, or net loss of $0.01 per diluted share"
+      }
+    },
+    {
+      "id": "BZH-05",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "9개월 누적 GAAP 순손익은 $(37,728)천 손실로 전년 동기 순이익 $15,584천에서 적자 전환했다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "Net (loss) income $ (4,227) $ (324) $ (37,728) $ 15,584"
+      }
+    },
+    {
+      "id": "BZH-06",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "3분기 주택건설 매출은 $490.9 million으로 8.3% 감소했는데, 인도(closings)가 13.4% 줄어 896채가 된 영향이 평균판매가격 5.9% 상승($547.8 thousand)을 상쇄했다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000915840-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
+        "quote": "Homebuilding revenue was $490.9 million, down 8.3% on a 13.4% decrease in home closings to 896, partially offset by a 5.9% increase in average selling price (ASP) to $547.8 thousand"
+      }
+    },
+    {
+      "id": "BZH-07",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "3분기 순손실에는 재고 손상·포기 비용과 채무소멸손실 $3.0 million(주당 $0.07)이 포함되었고, Adjusted EBITDA는 $15.6 million으로 전년 $32.1 million보다 감소했다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000915840-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
+        "quote": "This included inventory impairment and abandonment charges and loss on debt extinguishment of $3.0 million or $0.07 per share. Third quarter Adjusted EBITDA was $15.6 million compared to Adjusted EBITDA of $32.1 million a year ago."
+      }
+    },
+    {
+      "id": "BZH-08",
+      "section": "1_results",
+      "tier": "required",
+      "fact": "9개월 누적 주택건설 매출총이익률(손상·이자 제외)은 주택조합(HOA)과의 비공개 합의에 따른 소송 관련 비용으로 0.5%p 낮아졌다(일회성 항목).",
+      "event_date": "2025-12-31",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "homebuilding gross margin was impacted by a litigation-related charge associated with a confidential settlement agreement with a homeowners' association. This charge reduced homebuilding gross margin, excluding impairments, abandonments, and interest, by 0.5%."
+      }
+    },
+    {
+      "id": "BZH-09",
+      "section": "1_results",
+      "tier": "optional",
+      "fact": "3분기 순신규주문은 900채로 4.5% 증가했고, 기말 활성 커뮤니티 수는 170개(1.8% 증가)였다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000915840-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
+        "quote": "Net new orders were 900, up 4.5% on a 3.7% increase in orders per community per month to 1.8 and a 0.8% increase in average active community count to 169"
+      }
+    },
+    {
+      "id": "BZH-10",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "9개월 누적 영업활동 현금흐름은 $(375,674)천 순유출로 전년 동기 $(218,196)천보다 유출이 커졌다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "Net cash used in operating activities (375,674) (218,196)"
+      }
+    },
+    {
+      "id": "BZH-11",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "영업현금 유출 $375.7 million은 주로 토지 취득·개발·주택 건설 지출에 따른 재고 $342.6 million 증가와 세전손실 $60.1 million 때문이었다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "Net cash used in operating activities during the period was primarily driven by an increase in inventory of $342.6 million resulting from land acquisition, land development and house construction spending and loss before income taxes of $60.1 million"
+      }
+    },
+    {
+      "id": "BZH-12",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2026년 6월 30일 현금성자산은 $124.6 million, 리볼버 잔여한도는 $139.2 million으로 전년(각각 $82.9 million, $209.4 million)과 비교된다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "As of June 30, 2026, our liquidity position consisted of $124.6 million in cash and cash equivalents and $139.2 million of remaining capacity under the Unsecured Facility"
+      }
+    },
+    {
+      "id": "BZH-13",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "총차입금(순액)은 2025년 9월 30일 $1,029,114천에서 2026년 6월 30일 $1,409,132천으로 증가했으며, 리볼버 인출 $340.0 million이 포함된다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "As of June 30, 2026, we had $340.0 million in borrowings and $45.8 million in letters of credit outstanding under the Unsecured Facility, resulting in a remaining capacity of $139.2 million."
+      }
+    },
+    {
+      "id": "BZH-14",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "분기 중 2032년 만기 신규 선순위채 $400.0 million을 액면 발행하고, 그 대금으로 2027 Notes 잔액 $357.3 million을 상환해 $0.7 million의 채무소멸손실을 인식했다.",
+      "event_date": "2026-06-23",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "During the three months ended June 30, 2026, we redeemed the remaining $357.3 million of our outstanding 2027 Notes using proceeds from the issuance of the 2032 Notes, resulting in a loss on extinguishment of debt of $0.7 million."
+      }
+    },
+    {
+      "id": "BZH-15",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "분기 말 총부채/총자본 비율은 55.1%로 전년 48.4%에서 상승했고, 순부채/순자본 비율은 52.8%(전년 46.6%)였다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000915840-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
+        "quote": "Total debt to total capitalization ratio of 55.1% at quarter end compared to 48.4% a year ago. Net debt to net capitalization ratio was 52.8% at quarter end compared to 46.6% a year ago"
+      }
+    },
+    {
+      "id": "BZH-16",
+      "section": "2_cash_debt",
+      "tier": "required",
+      "fact": "2032 Notes 발행 시 S&P는 선순위채 및 기업신용등급을 B에서 B-로 하향하고 부정적 전망을 유지했으며, Moody's는 B2 등급을 재확인했다.",
+      "event_date": "2026-06-23",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "In June 2026, upon the issuance of our 2032 Notes, S&P revised the Company's Senior Notes' rating from B to B-, revised the Company’s corporate credit rating from B to B-, and reaffirmed the Company's outlook of negative."
+      }
+    },
+    {
+      "id": "BZH-17",
+      "section": "2_cash_debt",
+      "tier": "optional",
+      "fact": "3분기 자사주 1.0 million주를 $21.0 million에 매입해 연초 이후 누적 매입액은 $66.2 million(2.9 million주)이 되었다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000915840-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
+        "quote": "During the third quarter, the Company repurchased 1.0 million shares of its outstanding common stock for an aggregate $21.0 million at an average price per share of $21.01, bringing year-to-date repurchase activity to $66.2 million for 2.9 million shares"
+      }
+    },
+    {
+      "id": "BZH-18",
+      "section": "2_cash_debt",
+      "tier": "background",
+      "fact": "2026년 3월 무담보 리볼버 약정을 개정해 한도를 $365.0 million에서 $525.0 million으로 늘리고 만기를 2030년 3월 13일로 연장했다(조사 창 이전 사건).",
+      "event_date": "2026-03-13",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "In March 2026, the Company executed an amendment to increase its available borrowing capacity under the Unsecured Facility from $365.0 million to $525.0 million."
+      }
+    },
+    {
+      "id": "BZH-19",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "(현재) 2026년 8월 7일 회사는 Dream Finders Homes와의 합병 계약을 이유로 기존에 제시한 재무 전망을 철회하고 실적 컨퍼런스콜을 취소했다.",
+      "event_date": "2026-08-07",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0000915840-26-000049",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000049/exhibit991-63026.htm",
+        "quote": "Given the pending transaction with Dream Finders Homes, Beazer is withdrawing its previously issued financial outlook and will not host its earnings conference call and webcast that was scheduled for Monday, August 10, 2026."
+      }
+    },
+    {
+      "id": "BZH-20",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "(직전) 2026년 4월 30일 실적발표 콜에서 회사는 3분기 Adjusted EBITDA를 $5 million-$10 million으로 제시했다(실제 3분기 Adjusted EBITDA는 $15.6 million).",
+      "event_date": "2026-04-30",
+      "published_date": "2026-04-30",
+      "source": {
+        "type": "transcript",
+        "doc": "MarketBeat — Beazer Homes USA Q2 2026 Earnings Call Transcript (provided by Quartr), 2026-04-30",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-4-30-beazer-homes-usa-inc-stock/",
+        "quote": "From a land sale perspective, we expect to generate about $30 million of revenue in the quarter and still expect $150 million for the full year. Altogether, this should result in total adjusted EBITDA of $5 million-$10 million in the third quarter."
+      }
+    },
+    {
+      "id": "BZH-21",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "(직전) 같은 콜에서 3분기 약 1,000채 초과 판매, 기말 약 170개 커뮤니티, 약 900채 인도와 ASP $535,000-$540,000을 전망했다(실제: 주문 900채, 커뮤니티 170개, 인도 896채, ASP $547.8 thousand).",
+      "event_date": "2026-04-30",
+      "published_date": "2026-04-30",
+      "source": {
+        "type": "transcript",
+        "doc": "MarketBeat — Beazer Homes USA Q2 2026 Earnings Call Transcript (provided by Quartr), 2026-04-30",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-4-30-beazer-homes-usa-inc-stock/",
+        "quote": "We expect to sell more than 1,000 homes, up nearly 20% versus last year's third quarter. This implies a sales pace roughly in line with the second quarter. We expect to finish Q3 with about 170 active communities, flat to slightly up sequentially."
+      }
+    },
+    {
+      "id": "BZH-22",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "(직전 대비 하향) 4월 30일 콜에서 회사는 1월 제시한 하반기 판매속도 2.5 초과·4분기까지 300bp 마진 확대 조건을 판매속도 2 초과·200~300bp 확대로 낮추며 연간 EBITDA 성장 가능성이 줄었다고 밝혔다.",
+      "event_date": "2026-04-30",
+      "published_date": "2026-04-30",
+      "source": {
+        "type": "transcript",
+        "doc": "MarketBeat — Beazer Homes USA Q2 2026 Earnings Call Transcript (provided by Quartr), 2026-04-30",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-4-30-beazer-homes-usa-inc-stock/",
+        "quote": "We now think a sales pace above two for the balance of the year and margin expansion between 200 and 300 basis points by the fourth quarter are more likely and achievable outcomes."
+      }
+    },
+    {
+      "id": "BZH-23",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "(직전) 2분기 10-Q에서 회사는 2027회계연도 말까지 활성 커뮤니티 200개 초과, 순부채/순자본 30% 초반, 2024~2027 주당순자산 두 자릿수 연평균 성장이라는 Multi-Year Goals를 유지했다.",
+      "event_date": "2026-04-30",
+      "published_date": "2026-04-30",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000041",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000041/bzh-20260331.htm",
+        "quote": "We continue to work towards our Multi-Year Goals, which include reaching more than 200 active communities by the end of fiscal 2027, reducing our net debt to net capitalization ratio to the low-30% range by the end of fiscal 2027"
+      }
+    },
+    {
+      "id": "BZH-24",
+      "section": "3_guidance",
+      "tier": "required",
+      "fact": "(현재) 3분기 10-Q는 Multi-Year Goals 전체 문단 없이 2027회계연도 말까지 활성 커뮤니티 200개 달성을 향해 계속 노력한다는 문구만 남겼다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "We ended the quarter with 170 active communities, up 1.8% from 167 a year ago, as we continue to work toward reaching 200 active communities by the end of fiscal 2027."
+      }
+    },
+    {
+      "id": "BZH-25",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026년 8월 6일 회사는 Dream Finders Homes, Inc.와 합병계약을 체결했으며, 주주는 주당 $33.50을 현금으로 받게 된다(8-K Item 1.01).",
+      "event_date": "2026-08-06",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-092299",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926092299/tm2622398d1_8k.htm",
+        "quote": "will be converted into the right to receive $33.50 per Share in cash, without interest (the “Merger Consideration”), and subject to any required withholding taxes."
+      }
+    },
+    {
+      "id": "BZH-26",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "합병계약상 특정 조건(우월제안 수락 등)으로 계약이 해지되면 회사는 Dream Finders에 $31.3 million의 해지수수료를 지급해야 한다.",
+      "event_date": "2026-08-06",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-092299",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926092299/tm2622398d1_8k.htm",
+        "quote": "the Company will be required to pay Parent a termination fee of $31.3 million (the “Company Termination Fee”)."
+      }
+    },
+    {
+      "id": "BZH-27",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "공동 보도자료에 따르면 거래의 기업가치는 약 $2.2 billion이며, 주당 $33.50은 장부가 대비 0.8x에 해당한다.",
+      "event_date": "2026-08-06",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K EX-99.1 0001104659-26-092299",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926092299/tm2622398d1_ex99-1.htm",
+        "quote": "at an enterprise value of approximately $2.2 billion. Under the terms of the agreement, Beazer shareholders will receive $33.50 in cash for each share of Beazer common stock, representing an implied purchase price-to-book multiple of 0.8x."
+      }
+    },
+    {
+      "id": "BZH-28",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "2026년 8월 6일 이사회는 내규를 개정해 델라웨어 형평법원을 회사법 관련 소송의 전속 관할로 정했다(8-K Item 5.03).",
+      "event_date": "2026-08-06",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-092299",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926092299/tm2622398d1_8k.htm",
+        "quote": "On August 6, 2026, the Board adopted an amendment (the “Amendment”) to the Fourth Amended and Restated Bylaws of the Company (the “Bylaws”), which became effective immediately."
+      }
+    },
+    {
+      "id": "BZH-29",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026년 6월 23일 회사는 2032년 만기 8.000% 선순위채 $400 million을 사모 발행했고, 순조달금을 2027년 만기 5.875% 선순위채 $357.3 million 상환에 쓰기로 했다(8-K Items 1.01/2.03/8.01).",
+      "event_date": "2026-06-23",
+      "published_date": "2026-06-23",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0000915840-26-000046",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000046/bzh-20260623.htm",
+        "quote": "On June 23, 2026, Beazer Homes USA, Inc. (the “Company”) issued and sold $400 million aggregate principal amount of its 8.000% Senior Notes due 2032 (the “Notes”) through a private placement to qualified institutional buyers"
+      }
+    },
+    {
+      "id": "BZH-30",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026년 9월 18일 회사는 Dream Finders의 동의권유에 따라 2032 Notes·2031 Notes 계약을 보완해 합병이 '지배권 변경(Change of Control)'에 해당하지 않도록 개정했다(8-K Item 1.01).",
+      "event_date": "2026-09-18",
+      "published_date": "2026-09-18",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-108933",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926108933/tm2622398d16_8k.htm",
+        "quote": "Dream Finders solicited consents to amend the defined term “Change of Control” to provide that the Merger will not constitute a Change of Control (collectively, the “Amendments”)."
+      }
+    },
+    {
+      "id": "BZH-31",
+      "section": "4_events",
+      "tier": "required",
+      "fact": "2026년 9월 28일 회사는 2029년 만기 7.250% 선순위채 $350.0 million을 2026년 10월 20일 원금의 101.208%에 상환하겠다는 합병 완료 조건부 상환통지를 발행했다(8-K Item 8.01).",
+      "event_date": "2026-09-28",
+      "published_date": "2026-09-28",
+      "source": {
+        "type": "sec",
+        "doc": "8-K 0001104659-26-111345",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926111345/tm2622398d17_8k.htm",
+        "quote": "issued a conditional notice of redemption to redeem the $350.0 million aggregate principal amount of 7.250% Senior Notes due 2029 (the “2029 Notes”) that remain outstanding (the “Redemption”) on October 20, 2026"
+      }
+    },
+    {
+      "id": "BZH-32",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "확정 위임장(DEFM14A)에 따르면 합병 승인 임시주주총회는 2026년 10월 15일 온라인으로 열리며 기준일은 2026년 9월 14일이다.",
+      "event_date": "2026-10-15",
+      "published_date": "2026-09-15",
+      "source": {
+        "type": "sec",
+        "doc": "DEFM14A 0001104659-26-107656",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926107656/tm2622398-15_defm14a.htm",
+        "quote": "The Special Meeting will be held exclusively online at 8:00 a.m., Eastern Time, on October 15, 2026, at www.virtualshareholdermeeting.com/BZH2026SM."
+      }
+    },
+    {
+      "id": "BZH-33",
+      "section": "4_events",
+      "tier": "optional",
+      "fact": "합병에 대한 HSR법 대기기간 조기종료가 2026년 9월 9일 승인되었다.",
+      "event_date": "2026-09-09",
+      "published_date": "2026-09-15",
+      "source": {
+        "type": "sec",
+        "doc": "DEFM14A 0001104659-26-107656",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000110465926107656/tm2622398-15_defm14a.htm",
+        "quote": "Early termination of the waiting period under the HSR Act with respect to the Merger was granted on September 9, 2026."
+      }
+    },
+    {
+      "id": "BZH-34",
+      "section": "5_legal",
+      "tier": "required",
+      "fact": "회사는 건설하자 등 소송과 관련해 2026년 6월 30일 기준 $12.3 million(2025년 9월 30일 $9.9 million)의 소송충당금을 기타부채에 계상하고 있다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "We have an accrual of $12.3 million and $9.9 million in other liabilities on our condensed consolidated balance sheets related to litigation matters as of June 30, 2026 and September 30, 2025, respectively."
+      }
+    },
+    {
+      "id": "BZH-35",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "변동금리 부채(후순위채와 리볼버 인출) 약 $420.0 million에 대해 금리가 1%p 오르면 향후 12개월 이자비용이 약 $4.4 million 증가한다.",
+      "event_date": "2026-06-30",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "As of June 30, 2026, we had variable rate debt outstanding related to our Junior Subordinated Notes and outstanding borrowings under our Unsecured Facility totaling approximately $420.0 million."
+      }
+    },
+    {
+      "id": "BZH-36",
+      "section": "6_risks",
+      "tier": "optional",
+      "fact": "회사는 합병이 적시에 완료되지 않거나 해지수수료를 지급해야 하는 상황 등 Dream Finders 합병 관련 위험을 구체적 위험으로 제시했다.",
+      "event_date": "2026-08-06",
+      "published_date": "2026-08-07",
+      "source": {
+        "type": "sec",
+        "doc": "10-Q 0000915840-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/915840/000091584026000052/bzh-20260630.htm",
+        "quote": "(i) the risk that the Transactions may not be completed in a timely manner or at all, which may adversely affect our businesses and the price of the shares of our common stock; (ii) the risk that the Merger Agreement may be terminated in circumstances that require us to pay a termination fee"
+      }
+    },
+    {
+      "id": "BZH-37",
+      "section": "7_industry",
+      "tier": "optional",
+      "fact": "미국 인구조사국에 따르면 2026년 8월 신규 단독주택 판매는 계절조정 연율 684,000채로 7월보다 6.4% 많고 2025년 8월보다 2.0% 적었다.",
+      "event_date": "2026-08-31",
+      "published_date": "2026-09-24",
+      "source": {
+        "type": "industry",
+        "doc": "U.S. Census Bureau / HUD — Monthly New Residential Sales, August 2026 (CB26-155)",
+        "url": "https://www.census.gov/construction/nrs/current/index.html",
+        "quote": "Sales of new single-family houses in August 2026 were at a seasonally-adjusted annual rate of 684,000, according to estimates released jointly today by the U.S. Census Bureau and the Department of Housing and Urban Development."
+      }
+    },
+    {
+      "id": "BZH-38",
+      "section": "7_industry",
+      "tier": "optional",
+      "fact": "2026년 8월 민간 주택착공은 계절조정 연율 1,275,000호로 7월 대비 2.6%, 전년 동월 대비 1.2% 감소했다.",
+      "event_date": "2026-08-31",
+      "published_date": "2026-09-17",
+      "source": {
+        "type": "industry",
+        "doc": "U.S. Census Bureau / HUD — Monthly New Residential Construction, August 2026 (CB26-147)",
+        "url": "https://www.census.gov/construction/nrc/current/index.html",
+        "quote": "Privately-owned housing starts in August were at a seasonally adjusted annual rate of 1,275,000."
+      }
+    }
+  ],
+  "searched_not_found": [
+    {
+      "section": "4_events",
+      "checked": "EDGAR 8-K 목록(2026-04-14~2026-10-11) 전부 확인: 2.02(4/30, 8/7) 실적은 1_results로만 처리. Item 5.02(경영진·이사 변경), 2.05/2.06(구조조정·손상), 1.05(사이버), 4.01(감사인 변경), 3.01(상장 문제) 해당 8-K 없음. 2026-03-17 8-K(리볼버 개정)는 조사 창 이전으로 background 처리."
+    },
+    {
+      "section": "5_legal",
+      "checked": "3분기 10-Q Note 8(Litigation), Part II Item 1, DEFM14A(2026-09-15), DEFA14A들에서 합병 관련 주주소송·정부 조사 공시를 찾았으나 없음. 일반적 건설하자 소송과 비공개 HOA 합의 비용 외 개별 중요 소송 공시 없음."
+    },
+    {
+      "section": "3_guidance",
+      "checked": "2분기 실적 보도자료(8-K EX-99.1 0000915840-26-000040)와 2분기 10-Q에는 수치 전망이 없고 Multi-Year Goals 문구만 있음. 수치 전망(3분기 EBITDA 등)은 4/30 컨퍼런스콜에서만 제시되어 MarketBeat 녹취로 인용. 3분기(8/7)에는 전망 철회·콜 취소로 새 수치 전망 없음. 회사 IR 사이트(ir.beazer.com) 자료는 403으로 열지 못함. DEFM14A의 내부 경영진 전망(Company Forecasts)은 공개 가이던스가 아니어서 제외."
+    },
+    {
+      "section": "6_risks",
+      "checked": "3분기 10-Q Item 1A: 'There have been no material changes to the risk factors' — 위험요인 변경 없음."
+    }
+  ]
+}
